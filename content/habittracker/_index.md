@@ -15,9 +15,9 @@ Dit is het verhaal van hoe ik met AI als co-pilot in een paar uur een werkende P
 
 | | |
 |--------|--------|
-| Mijn tijd | ~2 uur |
-| AI tijd | ~16 uur |
-| Ratio | 1:8 |
+| Mijn tijd | ~2.5 uur |
+| AI tijd | ~19 uur |
+| Ratio | 1:7.5 |
 | Versie | 0.2.0 |
 
 **Live app:** [dailymo.netlify.app](https://dailymo.netlify.app)
