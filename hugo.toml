@@ -1,6 +1,6 @@
-baseURL = 'https://devblog.netlify.app/'
+baseURL = 'https://vibemo.netlify.app/'
 languageCode = 'nl'
-title = 'Devblog'
+title = 'Vibemo'
 theme = 'PaperMod'
 
 # Flexible setup - can become category later
