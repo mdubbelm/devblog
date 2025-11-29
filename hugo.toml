@@ -1,0 +1,58 @@
+baseURL = 'https://devblog.netlify.app/'
+languageCode = 'nl'
+title = 'Devblog'
+theme = 'PaperMod'
+
+# Flexible setup - can become category later
+[params]
+  description = "Experimenten, learnings en avonturen in code"
+  author = "Monique"
+  showReadingTime = true
+  showShareButtons = false
+  showPostNavLinks = true
+  showBreadCrumbs = true
+  showCodeCopyButtons = true
+  defaultTheme = "auto"
+
+  # Homepage
+  [params.homeInfoParams]
+    Title = "Welkom"
+    Content = "Hier documenteer ik mijn experimenten met code, AI en alles daartussen."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/mdubbelm"
+
+# Menu - flexible for future categories
+[menu]
+  [[menu.main]]
+    identifier = "habittracker"
+    name = "Health tracker"
+    url = "/habittracker/"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "Over"
+    url = "/about/"
+    weight = 20
+
+# Taxonomies for future categorization
+[taxonomies]
+  tag = "tags"
+  series = "series"
+
+# Pretty URLs
+[permalinks]
+  posts = "/:section/:slug/"
+
+# Build settings
+[build]
+  writeStats = true
+
+# Markup settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+    lineNos = false
+  [markup.goldmark.renderer]
+    unsafe = true
