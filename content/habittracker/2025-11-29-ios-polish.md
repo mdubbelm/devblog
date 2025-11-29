@@ -1,6 +1,6 @@
 ---
 title: "iOS polish - pull-to-refresh & wheel picker"
-date: 2025-11-29
+date: 2025-11-29T10:00:00+01:00
 session: 7
 tags: [ux, ios, native-feel, polish]
 user_time: "15 min"

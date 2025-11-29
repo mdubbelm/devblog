@@ -1,6 +1,6 @@
 ---
 title: "De mens achter de prompt"
-date: 2025-11-29
+date: 2025-11-29T14:00:00+01:00
 session: 8
 tags: [reflectie, proces, samenwerking]
 user_time: "nvt"

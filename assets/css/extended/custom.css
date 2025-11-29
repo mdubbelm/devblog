@@ -1,0 +1,85 @@
+/* ===========================================
+   Custom CSS - Vibemo Devblog
+   UI Design: Kehrana
+   =========================================== */
+
+/* Screenshot Grid - Responsive layout for mobile app screenshots */
+.screenshot-grid {
+  display: grid;
+  gap: 16px;
+  margin: 24px 0;
+}
+
+/* Mobile: 2 columns (screenshots are narrow, fit 2 nicely) */
+@media (max-width: 639px) {
+  .screenshot-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+}
+
+/* Tablet: 2-3 columns */
+@media (min-width: 640px) and (max-width: 1023px) {
+  .screenshot-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .screenshot-grid.cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Desktop: 3 columns */
+@media (min-width: 1024px) {
+  .screenshot-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Screenshot items */
+.screenshot-grid figure {
+  margin: 0;
+  text-align: center;
+}
+
+.screenshot-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.screenshot-grid img:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.screenshot-grid figcaption {
+  font-size: 0.85rem;
+  color: var(--secondary);
+  margin-top: 8px;
+  line-height: 1.4;
+}
+
+/* Single figure styling (for full-width screenshots) */
+.post-content figure {
+  margin: 24px 0;
+}
+
+.post-content figure img {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-content figure figcaption {
+  font-size: 0.85rem;
+  color: var(--secondary);
+  text-align: center;
+  margin-top: 8px;
+}
+
+/* Ensure images in grid don't exceed container */
+.screenshot-grid img {
+  max-width: 100%;
+  object-fit: contain;
+}
