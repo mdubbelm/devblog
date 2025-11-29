@@ -56,6 +56,22 @@ Ik weet wanneer een touch target te klein is. Ik weet dat pull-to-refresh verwac
 
 De AI kan code schrijven. Maar ik weet wat goede UX is.
 
+### Observeer jezelf
+
+Dit is misschien wel de belangrijkste tip: **let op je eigen gedrag**.
+
+Ik testte de app op mijn iPhone. Zonder erbij na te denken trok ik de pagina naar beneden om te verversen. Er gebeurde niks. Normale reflex, geen resultaat.
+
+In plaats van dat te accepteren, gaf ik het terug:
+
+> "Als ik op mijn telefoon naar beneden trek gebeurt er niks. Ik wil pull to refresh, is dat mogelijk?"
+
+Dat was geen technische vraag. Ik wist niet hoe pull-to-refresh werkt. Ik beschreef gewoon wat ik *deed* en wat ik *verwachtte*.
+
+De AI vertaalde dat naar touchstart events, thresholds, en CSS transforms. Twintig minuten later werkte het.
+
+**De les:** Je hoeft niet te weten *hoe* iets moet. Je moet alleen kunnen beschrijven *wat* je wilt. Observeer je eigen natuurlijke gedrag — of dat van anderen — en geef dat terug als feedback. De AI doet de vertaling naar techniek.
+
 ---
 
 ## De samenwerking
@@ -81,6 +97,7 @@ Als je denkt "ik kan niet programmeren, dus ik kan geen app bouwen" — je hebt 
 Je kunt niet *coderen*. Maar je kunt wel:
 - Weten wat je wilt
 - Het helder verwoorden
+- Je eigen gedrag observeren en beschrijven
 - Feedback geven op resultaat
 - Beslissen wat goed genoeg is
 - Kwaliteit herkennen
