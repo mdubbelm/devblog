@@ -49,6 +49,9 @@ theme = 'PaperMod'
 [build]
   writeStats = true
 
+# Ignore idea files (never publish)
+ignoreFiles = ['_ideas\.md$', '\.tmp\.']
+
 # Markup settings
 [markup]
   [markup.highlight]

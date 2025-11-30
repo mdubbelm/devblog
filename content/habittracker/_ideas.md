@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 # Blog ideeën
 
 ## Idee 1: Mijn virtuele team (agents uitleg)
