@@ -1,4 +1,4 @@
-baseURL = 'https://vibemo.netlify.app/'
+baseURL = 'https://blog.modub.nl/'
 languageCode = 'nl'
 title = 'Vibemo'
 theme = 'PaperMod'

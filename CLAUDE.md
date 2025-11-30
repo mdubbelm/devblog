@@ -44,5 +44,20 @@ Zie `~/Projecten/CLAUDE.md` voor schrijfrichtlijnen:
 
 ## Deployment
 
-- Push naar GitHub → Netlify auto-deploy
-- URL: https://devblog.netlify.app (nog te configureren)
+- Push naar GitHub → GitHub Pages auto-deploy
+- URL: https://blog.modub.nl
+
+### DNS setup (TransIP)
+
+Voeg dit CNAME record toe in TransIP:
+
+```
+blog.modub.nl  CNAME  mdubbelm.github.io.
+```
+
+### GitHub Pages aanzetten
+
+1. Ga naar repo Settings → Pages
+2. Source: "GitHub Actions"
+3. Wacht op eerste deploy
+4. Custom domain: `blog.modub.nl`
