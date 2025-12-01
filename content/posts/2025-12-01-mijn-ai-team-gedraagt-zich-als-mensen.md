@@ -1,12 +1,7 @@
 ---
 title: "Mijn AI-team gedraagt zich als mensen"
 date: 2025-12-01T19:30:00+01:00
-session: 13
-tags: [workflow, proces, frustratie, guardrails]
-user_time: "45 min"
-ai_time: "3 uur"
-efficiency: "1:4"
-mood: "😤→😌"
+tags: [ai, workflow, proces]
 ---
 
 # Mijn AI-team gedraagt zich als mensen
