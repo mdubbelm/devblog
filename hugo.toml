@@ -26,6 +26,11 @@ theme = 'PaperMod'
 # Menu - flexible for future categories
 [menu]
   [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 5
+  [[menu.main]]
     identifier = "habittracker"
     name = "Health tracker"
     url = "/habittracker/"
