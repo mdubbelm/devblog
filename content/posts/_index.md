@@ -1,4 +1,4 @@
 ---
-title: "Posts"
-description: "Algemene inzichten over bouwen met AI"
+title: "AI & ik"
+description: "Inzichten over bouwen met AI"
 ---
