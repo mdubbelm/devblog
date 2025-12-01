@@ -51,11 +51,11 @@ Een script dat automatisch runt voordat je pusht. Tests falen? Je krijgt een mel
 
 Het vangt fouten op voordat ze remote komen. Niet als straf, maar als vangnet.
 
-### 3. Branch protection op GitHub
+### 3. Een tussenstap op GitHub
 
-Directe pushes naar main zijn uitgeschakeld. Alles gaat via een pull request. En die PR kan pas mergen als de CI groen is.
+Vroeger kon je code direct naar de live versie sturen. Nu zit er een tussenstap in: je maakt eerst een voorstel (pull request), en pas als alle tests slagen mag het door.
 
-Dit klinkt streng, maar het is eigenlijk bevrijdend. Je hoeft niet meer na te denken of je wel alles hebt gecheckt. Het systeem helpt je onthouden.
+Klinkt als extra werk, maar het is eigenlijk bevrijdend. Je hoeft niet meer na te denken of je wel alles hebt gecheckt. Het systeem helpt je onthouden.
 
 ---
 
@@ -73,9 +73,9 @@ Drie extra stappen. Maar ook: drie momenten waarop fouten worden opgevangen.
 
 Ik bouw tools met AI. Die AI maakt dezelfde fouten als mensen. Dus ik bouw dezelfde ondersteuning die je voor een mensenteam zou bouwen.
 
-Code reviews. Automatische tests. Branch protection. Checklists.
+Code reviews. Automatische tests. Tussenstappen. Checklists.
 
-Het verschil? De AI klaagt niet over de extra stappen.
+Blijkbaar werkt goede teamondersteuning universeel.
 
 ---
 

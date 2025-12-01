@@ -1,28 +1,17 @@
 {
-  "timestamp": "2025-11-29T15:30:00+01:00",
-  "session": 9,
-  "summary": "Blog fixes en UI verbeteringen: baseURL gecorrigeerd naar vibemo.netlify.app, blog post volgorde gefixet met timestamps voor same-date posts, responsive screenshot grid toegevoegd (2 kolommen mobiel, 3 desktop)",
+  "timestamp": "2025-11-30T23:15:00+01:00",
+  "summary": "Twee problemen opgelost: (1) _ideas.md werd onbedoeld gepubliceerd - nu geblokkeerd via ignoreFiles in hugo.toml + draft frontmatter, (2) 404 errors in habittracker index gefixed door links te updaten naar de werkelijke bestandsnamen. Wijzigingen gecommit en gepusht naar GitHub Pages.",
   "filesModified": [
-    "hugo.toml (baseURL en title naar Vibemo)",
-    "assets/css/extended/custom.css (nieuw - screenshot grid styling)",
-    "content/habittracker/2025-11-22-het-begin.md (timestamp)",
-    "content/habittracker/2025-11-22-mvp-live.md (timestamp + screenshot grid)",
-    "content/habittracker/2025-11-22-te-snel.md (timestamp)",
-    "content/habittracker/2025-11-29-ios-polish.md (timestamp)",
-    "content/habittracker/2025-11-29-de-mens-achter-de-prompt.md (timestamp)"
+    "hugo.toml",
+    "content/habittracker/_ideas.md",
+    "content/habittracker/_index.md",
+    "hugo_stats.json"
   ],
   "nextSteps": [
-    "Meer screenshots toevoegen aan andere blog posts",
-    "Blog content uitbreiden met nieuwe sessies",
-    "Eventueel tags/series pagina's stylen",
-    "About pagina verder personaliseren"
+    "Verifieer dat blog.modub.nl correct werkt na deploy",
+    "Check dat _ideas pagina niet meer bereikbaar is",
+    "Test alle links in de habittracker index"
   ],
-  "openIssues": [
-    "GitHub issue #31: Lezen toevoegen als habit (in habittracker project)"
-  ],
-  "commits": [
-    "c27b44a - fix: correct baseURL to vibemo.netlify.app",
-    "088c746 - fix: blog ordering and responsive screenshot grid"
-  ],
-  "deployUrl": "https://vibemo.netlify.app/"
+  "openIssues": [],
+  "todoList": "Geen openstaande taken"
 }
