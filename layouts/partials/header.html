@@ -82,7 +82,7 @@
             </div>
         </div>
         {{- $currentPage := . }}
-        <ul id="menu">
+        <ul id="menu" style="overflow: visible !important; overflow-x: visible !important; overflow-y: visible !important;">
             {{- range site.Menus.main }}
             {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
             {{- $page_url:= $currentPage.Permalink | absLangURL }}
