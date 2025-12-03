@@ -1,5 +1,6 @@
+<a class="skip-link" href="#main">Naar hoofdinhoud</a>
 <header class="header">
-    <nav class="nav">
+    <nav class="nav" aria-label="Hoofdnavigatie">
         <div class="logo">
             {{- $label_text := (site.Params.label.text | default site.Title) }}
             {{- if site.Title }}
@@ -88,12 +89,25 @@
             {{- $is_search := eq (site.GetPage .KeyName).Layout `search` }}
             {{- $is_blog := eq .Identifier "blog" }}
             <li{{ if $is_blog }} class="has-submenu"{{ end }}>
+                {{- if $is_blog }}
+                <button class="submenu-toggle" aria-expanded="false" aria-controls="blog-submenu" aria-haspopup="true">
+                    <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
+                        {{- .Name -}}
+                    </span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="dropdown-arrow" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <ul class="submenu" id="blog-submenu" role="menu" aria-label="Blog categorieën">
+                    <li role="none"><a href="/blog/" role="menuitem">Alle posts</a></li>
+                    {{- range (site.GetPage "/blog").Sections }}
+                    <li role="none"><a href="{{ .RelPermalink }}" role="menuitem">{{ .Title }}</a></li>
+                    {{- end }}
+                </ul>
+                {{- else }}
                 <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
                 {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
                     <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
                         {{- .Pre }}
                         {{- .Name -}}
-                        {{- if $is_blog }} <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="dropdown-arrow"><polyline points="6 9 12 15 18 9"></polyline></svg>{{- end }}
                         {{ .Post -}}
                     </span>
                     {{- if (findRE "://" .URL) }}&nbsp;
@@ -105,13 +119,6 @@
                     </svg>
                     {{- end }}
                 </a>
-                {{- if $is_blog }}
-                <ul class="submenu" aria-label="Blog categorieën">
-                    <li><a href="/blog/">Alle posts</a></li>
-                    {{- range (site.GetPage "/blog").Sections }}
-                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-                    {{- end }}
-                </ul>
                 {{- end }}
             </li>
             {{- end }}

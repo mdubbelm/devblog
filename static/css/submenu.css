@@ -1,8 +1,34 @@
 /**
  * Dropdown Submenu for Blog Categories
+ * Accessible keyboard navigation included
  */
 
-/* Override PaperMod nav overflow to allow dropdown */
+/* =============================================================================
+   Skip Link - for keyboard users
+   ============================================================================= */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--primary);
+  color: var(--theme);
+  padding: 8px 16px;
+  z-index: 10000;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 0 0 4px 0;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 0;
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+/* =============================================================================
+   Override PaperMod nav overflow to allow dropdown
+   ============================================================================= */
 .nav,
 .header,
 #menu {
@@ -14,16 +40,52 @@
   position: relative;
 }
 
+/* =============================================================================
+   Submenu Toggle Button
+   ============================================================================= */
+.submenu-toggle {
+  background: none;
+  border: none;
+  color: var(--content);
+  font-size: inherit;
+  font-family: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0;
+  line-height: inherit;
+}
+
+.submenu-toggle:hover,
+.submenu-toggle:focus {
+  color: var(--primary);
+}
+
+.submenu-toggle:focus {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.submenu-toggle:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.submenu-toggle:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
 /* Dropdown arrow icon */
 .dropdown-arrow {
   display: inline-block;
   vertical-align: middle;
-  margin-left: 4px;
   transition: transform 0.2s ease;
 }
 
-#menu .has-submenu:hover .dropdown-arrow,
-#menu .has-submenu:focus-within .dropdown-arrow {
+/* Rotate arrow when expanded */
+.submenu-toggle[aria-expanded="true"] .dropdown-arrow {
   transform: rotate(180deg);
 }
 
@@ -48,9 +110,9 @@
   z-index: 1000;
 }
 
-/* Show submenu on hover/focus */
-#menu .has-submenu:hover > .submenu,
-#menu .has-submenu:focus-within > .submenu {
+/* Show submenu when button is expanded */
+#menu .has-submenu .submenu[aria-hidden="false"],
+#menu .has-submenu:hover > .submenu {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -77,6 +139,20 @@
 #menu .submenu a:focus {
   background: var(--code-bg);
   color: var(--primary);
+}
+
+#menu .submenu a:focus {
+  outline: 2px solid var(--primary);
+  outline-offset: -2px;
+}
+
+#menu .submenu a:focus:not(:focus-visible) {
+  outline: none;
+}
+
+#menu .submenu a:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: -2px;
 }
 
 /* Arrow pointer on top of submenu */
