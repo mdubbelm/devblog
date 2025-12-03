@@ -1,17 +1,24 @@
 {
-  "timestamp": "2025-11-30T23:15:00+01:00",
-  "summary": "Twee problemen opgelost: (1) _ideas.md werd onbedoeld gepubliceerd - nu geblokkeerd via ignoreFiles in hugo.toml + draft frontmatter, (2) 404 errors in habittracker index gefixed door links te updaten naar de werkelijke bestandsnamen. Wijzigingen gecommit en gepusht naar GitHub Pages.",
+  "timestamp": "2025-12-01T19:53:00+01:00",
+  "summary": "Workflow verbeteringen doorgevoerd voor zweedsapp en habittracker na frustratie over niet-gevolgde processen. Centrale CLAUDE.md aangescherpt met STOP-sectie, pre-push hooks geïnstalleerd, branch protection ingesteld op GitHub. Falende cross-browser tests uitgeschakeld (issue #47). Blogpost geschreven over het proces en gepubliceerd op blog.modub.nl in nieuwe 'AI & ik' sectie.",
   "filesModified": [
-    "hugo.toml",
-    "content/habittracker/_ideas.md",
-    "content/habittracker/_index.md",
-    "hugo_stats.json"
+    "~/Projecten/CLAUDE.md - STOP-sectie toegevoegd met verplichte workflow regels",
+    "~/Projecten/_templates/husky/pre-push - nieuwe template voor pre-push hook",
+    "~/Projecten/_templates/README.md - documentatie voor templates",
+    "~/Projecten/zweedsapp/.husky/pre-push - pre-push hook geïnstalleerd",
+    "~/Projecten/habittracker/.husky/pre-push - pre-push hook geïnstalleerd",
+    "~/Projecten/habittracker/.github/workflows/ci.yml - cross-browser tests uitgeschakeld",
+    "~/Projecten/devblog/content/posts/2025-12-01-mijn-ai-team-gedraagt-zich-als-mensen.md - nieuwe blogpost",
+    "~/Projecten/devblog/content/posts/_index.md - sectie index aangemaakt",
+    "~/Projecten/devblog/hugo.toml - menu item 'AI & ik' toegevoegd"
   ],
   "nextSteps": [
-    "Verifieer dat blog.modub.nl correct werkt na deploy",
-    "Check dat _ideas pagina niet meer bereikbaar is",
-    "Test alle links in de habittracker index"
+    "Cross-browser tests fixen in habittracker (issue #47)",
+    "Meer posts schrijven in 'AI & ik' sectie",
+    "Pre-push hooks testen bij volgende development sessies"
   ],
-  "openIssues": [],
-  "todoList": "Geen openstaande taken"
+  "openIssues": [
+    "habittracker issue #47: Cross-browser tests falen door verouderde selectors"
+  ],
+  "todoList": "Geen actieve todos"
 }

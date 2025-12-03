@@ -15,9 +15,9 @@ Dit is het verhaal van hoe ik met AI als co-pilot in een paar uur een werkende P
 
 | | |
 |--------|--------|
-| Mijn tijd | ~3 uur |
-| AI tijd | ~21 uur |
-| Ratio | 1:7 |
+| Mijn tijd | ~3,5 uur |
+| AI tijd | ~21,5 uur |
+| Ratio | 1:6 |
 | Versie | 0.3.0 |
 
 **Live app:** [daily.modub.nl](https://daily.modub.nl)
@@ -30,6 +30,7 @@ Lees het hele verhaal hieronder, of spring naar een specifiek moment.
 
 | # | Post | Thema |
 |---|------|-------|
+| 13 | [De kunst van bug hunting](2025-12-03-bug-hunting) | debugging |
 | 12 | [Mijn eigen gewoontes](2025-11-30-mijn-eigen-gewoontes) | custom habits |
 | 9 | [Vijf dingen af in één sessie](2025-11-29-feature-rush) | productiviteit |
 | 8 | [De mens achter de prompt](2025-11-29-de-mens-achter-de-prompt) | reflectie |
