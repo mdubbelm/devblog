@@ -1,66 +1,114 @@
-baseURL = 'https://blog.modub.nl/'
+# =============================================================================
+# MODUB.NL - Hoofdsite + Blog
+# =============================================================================
+# Hoofddomein: modub.nl (statische pagina's)
+# Blog subdomein: blog.modub.nl (wordt later geconfigureerd via DNS/redirect)
+# =============================================================================
+
+# TODO: Verander naar https://modub.nl/ wanneer custom domain is geconfigureerd
+baseURL = 'https://mdubbelm.github.io/devblog/'
 languageCode = 'nl'
-title = 'Vibemo'
+title = 'Monique Dubbelman'
 theme = 'PaperMod'
 
-# Flexible setup - can become category later
+# =============================================================================
+# Site Parameters
+# =============================================================================
 [params]
-  description = "Experimenten, learnings en avonturen in code"
-  author = "Monique"
+  description = "Web professional, information architect & code enthusiast"
+  author = "Monique Dubbelman"
   showReadingTime = true
   showShareButtons = false
   showPostNavLinks = true
   showBreadCrumbs = true
   showCodeCopyButtons = true
   defaultTheme = "auto"
+  comments = true  # Enable Mastodon comments (per-post config in frontmatter)
 
-  # Homepage
+  # Homepage - persoonlijke intro
   [params.homeInfoParams]
-    Title = "Welkom"
-    Content = "Hier documenteer ik mijn experimenten met code, AI en alles daartussen."
+    Title = "Hallo, ik ben Monique"
+    Content = """Web professional met een passie voor informatie-architectuur, WordPress en leren coderen. \
+Hier deel ik mijn projecten, experimenten en gedachten."""
 
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/mdubbelm"
 
-# Menu - flexible for future categories
+  [[params.socialIcons]]
+    name = "mastodon"
+    url = "https://mastodon.social/@Mdubbelm"
+
+# =============================================================================
+# Navigatie Menu
+# =============================================================================
 [menu]
+  # Statische pagina's
   [[menu.main]]
-    identifier = "posts"
-    name = "AI & ik"
-    url = "/posts/"
+    identifier = "now"
+    name = "Now"
+    url = "/now/"
     weight = 5
+
   [[menu.main]]
-    identifier = "habittracker"
-    name = "Health tracker"
-    url = "/habittracker/"
+    identifier = "portfolio"
+    name = "Portfolio"
+    url = "/portfolio/"
     weight = 10
+
+  # Blog sectie
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 15
+
   [[menu.main]]
     identifier = "about"
     name = "Over"
     url = "/about/"
     weight = 20
 
-# Taxonomies for future categorization
+# =============================================================================
+# Taxonomies - voor blog categorisatie
+# =============================================================================
 [taxonomies]
   tag = "tags"
+  category = "categories"
   series = "series"
 
+# =============================================================================
 # Pretty URLs
+# =============================================================================
 [permalinks]
-  posts = "/:section/:slug/"
+  # Blog posts krijgen datum in URL
+  blog = "/blog/:year/:month/:slug/"
+  # Statische pagina's direct onder root
+  pages = "/:slug/"
 
+# =============================================================================
 # Build settings
+# =============================================================================
 [build]
   writeStats = true
 
-# Ignore idea files (never publish)
-ignoreFiles = ['_ideas\.md$', '\.tmp\.']
+# Ignore idea/draft files
+ignoreFiles = ['_ideas\.md$', '\.tmp\.', '_draft']
 
+# =============================================================================
 # Markup settings
+# =============================================================================
 [markup]
   [markup.highlight]
     style = "dracula"
     lineNos = false
   [markup.goldmark.renderer]
     unsafe = true
+
+# =============================================================================
+# Outputs - voor RSS feeds per sectie
+# =============================================================================
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]

@@ -1,0 +1,15 @@
+<nav class="category-nav" aria-label="Blog categorieën">
+  <ul class="category-list">
+    {{- range (site.GetPage "/blog").Sections }}
+    <li class="category-item">
+      <a href="{{ .RelPermalink }}" class="category-link">
+        <span class="category-name">{{ .Title }}</span>
+        <span class="category-count">{{ len .Pages }}</span>
+      </a>
+      {{- with .Description }}
+      <p class="category-description">{{ . }}</p>
+      {{- end }}
+    </li>
+    {{- end }}
+  </ul>
+</nav>

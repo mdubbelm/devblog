@@ -1,0 +1,150 @@
+/**
+ * Dropdown Submenu for Blog Categories
+ */
+
+/* Override PaperMod nav overflow to allow dropdown */
+.nav,
+.header,
+#menu {
+  overflow: visible !important;
+}
+
+/* Parent menu item with submenu */
+#menu > li.has-submenu {
+  position: relative;
+}
+
+/* Dropdown arrow icon */
+.dropdown-arrow {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 4px;
+  transition: transform 0.2s ease;
+}
+
+#menu .has-submenu:hover .dropdown-arrow,
+#menu .has-submenu:focus-within .dropdown-arrow {
+  transform: rotate(180deg);
+}
+
+/* Submenu styling */
+#menu .submenu {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 220px;
+  background: var(--theme);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  padding: 0.5rem 0;
+  margin-top: 0.5rem;
+  list-style: none;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.15s ease, visibility 0.15s ease, transform 0.15s ease;
+  z-index: 1000;
+}
+
+/* Show submenu on hover/focus */
+#menu .has-submenu:hover > .submenu,
+#menu .has-submenu:focus-within > .submenu {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+/* Submenu items */
+#menu .submenu li {
+  margin: 0;
+  list-style: none;
+}
+
+#menu .submenu a {
+  display: block;
+  padding: 0.6rem 1.2rem;
+  color: var(--content);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: normal;
+  transition: background-color 0.15s ease, color 0.15s ease;
+  white-space: nowrap;
+}
+
+#menu .submenu a:hover,
+#menu .submenu a:focus {
+  background: var(--code-bg);
+  color: var(--primary);
+}
+
+/* Arrow pointer on top of submenu */
+#menu .submenu::before {
+  content: '';
+  position: absolute;
+  top: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid var(--border);
+}
+
+#menu .submenu::after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid var(--theme);
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  #menu .submenu {
+    position: static;
+    transform: none;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 0;
+    padding: 0;
+    background: transparent;
+    min-width: auto;
+  }
+
+  #menu .submenu::before,
+  #menu .submenu::after {
+    display: none;
+  }
+
+  #menu .submenu li {
+    padding-left: 1rem;
+  }
+
+  #menu .submenu a {
+    padding: 0.4rem 0;
+    font-size: 0.85rem;
+    color: var(--secondary);
+  }
+
+  #menu .submenu a:hover {
+    background: transparent;
+    color: var(--primary);
+  }
+
+  .dropdown-arrow {
+    display: none;
+  }
+}
+
+/* Dark mode */
+.dark #menu .submenu {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,32 @@
+{{- with .Params.mastodon }}
+<section class="mastodon-comments" id="comments">
+  <h2>Reacties</h2>
+  <p class="mastodon-comments-intro">
+    Reageer op dit artikel via Mastodon!
+    <a href="https://{{ .host }}/@{{ .username }}/{{ .id }}" target="_blank" rel="noopener noreferrer">
+      Reageer op de originele post
+    </a>
+    en je reactie verschijnt hier.
+  </p>
+
+  <button
+    id="load-mastodon-comments"
+    data-host="{{ .host }}"
+    data-post-id="{{ .id }}">
+    Reacties laden
+  </button>
+
+  <div id="mastodon-comments-wrapper">
+    <noscript>
+      <p>JavaScript is vereist om reacties te laden.
+        <a href="https://{{ .host }}/@{{ .username }}/{{ .id }}" target="_blank" rel="noopener noreferrer">
+          Bekijk reacties op Mastodon
+        </a>
+      </p>
+    </noscript>
+  </div>
+</section>
+
+<link rel="stylesheet" href="/css/mastodon-comments.css">
+<script src="/js/mastodon-comments.js" defer></script>
+{{- end }}

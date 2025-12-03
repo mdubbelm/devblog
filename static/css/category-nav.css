@@ -1,0 +1,80 @@
+/**
+ * Category Navigation Styling
+ */
+
+.category-nav {
+  margin: 1.5rem 0 2rem;
+}
+
+.category-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.category-item {
+  background: var(--code-bg);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.category-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.category-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.category-link:hover {
+  color: var(--primary);
+}
+
+.category-name {
+  flex: 1;
+}
+
+.category-count {
+  background: var(--primary);
+  color: var(--theme);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.5rem;
+  border-radius: 12px;
+  min-width: 1.5rem;
+  text-align: center;
+}
+
+.category-description {
+  margin: 0.5rem 0 0;
+  font-size: 0.875rem;
+  color: var(--secondary);
+  line-height: 1.4;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .category-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Dark mode */
+.dark .category-item {
+  background: var(--code-bg);
+}
+
+.dark .category-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
