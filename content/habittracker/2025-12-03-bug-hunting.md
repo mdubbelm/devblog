@@ -34,7 +34,7 @@ Fix: een helper functie die beide ondersteunt.
 
 Ik liet Claude een test script schrijven dat de app opstartte en checkte wat er daadwerkelijk zichtbaar was:
 
-```
+```text
 Period selector visible: true
 Period buttons found: 5
 Trend indicators found: 0
