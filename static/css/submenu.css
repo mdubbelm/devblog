@@ -34,21 +34,35 @@
 }
 
 /* =============================================================================
-   Main menu links - focus styling
+   Main menu links - focus styling (override PaperMod)
    ============================================================================= */
-#menu > li > a:focus {
-  outline: 2px solid var(--primary);
-  outline-offset: 2px;
+#menu > li > a:focus,
+#menu > li > a:focus-visible,
+.nav a:focus,
+.nav a:focus-visible,
+.logo a:focus,
+.logo a:focus-visible {
+  outline: 2px solid var(--primary) !important;
+  outline-offset: 2px !important;
   border-radius: 2px;
 }
 
-#menu > li > a:focus:not(:focus-visible) {
-  outline: none;
+#menu > li > a:focus:not(:focus-visible),
+.nav a:focus:not(:focus-visible),
+.logo a:focus:not(:focus-visible) {
+  outline: none !important;
 }
 
-#menu > li > a:focus-visible {
-  outline: 2px solid var(--primary);
-  outline-offset: 2px;
+/* Theme toggle button focus */
+#theme-toggle:focus,
+#theme-toggle:focus-visible {
+  outline: 2px solid var(--primary) !important;
+  outline-offset: 2px !important;
+  border-radius: 4px;
+}
+
+#theme-toggle:focus:not(:focus-visible) {
+  outline: none !important;
 }
 
 /* =============================================================================
