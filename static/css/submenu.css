@@ -45,12 +45,21 @@
   outline: 2px solid var(--primary) !important;
   outline-offset: 2px !important;
   border-radius: 2px;
+  /* Ensure link is visible and interactive */
+  position: relative;
+  z-index: 1;
 }
 
 #menu > li > a:focus:not(:focus-visible),
 .nav a:focus:not(:focus-visible),
 .logo a:focus:not(:focus-visible) {
   outline: none !important;
+}
+
+/* Ensure menu items themselves are keyboard accessible */
+#menu > li {
+  position: relative;
+  z-index: auto;
 }
 
 /* Theme toggle button focus */
@@ -72,6 +81,14 @@
 .header,
 #menu {
   overflow: visible !important;
+}
+
+/* Fix: PaperMod sets overflow-x: auto on #menu which breaks keyboard navigation
+   overflow on containers removes elements from sequential focus navigation
+   We need visible overflow for both dropdown AND keyboard accessibility */
+#menu {
+  overflow-x: visible !important;
+  overflow-y: visible !important;
 }
 
 /* Parent menu item with submenu */
