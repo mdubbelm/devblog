@@ -1,22 +1,22 @@
 ---
 title: "De onzichtbare poortwachter"
 date: 2025-12-05
-tags: [bugs, debugging, data, learnings]
+tags: [bugs, debugging, data, learnings, proces]
 user_time: "30 min"
 ai_time: "1.5 uur"
 efficiency: "1:3"
-mood: "🔓"
+mood: "😤"
 ---
 
 Twee dagen lang werkte hetzelfde veld niet. Ik vulde "lezen" in, klikte opslaan, ging terug - en het vakje was weer leeg. Elke keer opnieuw.
 
-Dit is het verhaal van een bug die me leerde dat de gevaarlijkste code vaak de code is die je beschermt.
+Dit is het verhaal van een bug die me leerde dat AI-gegenereerde code zijn eigen valkuilen heeft. En dat mijn samenwerking met Claude nog lang niet vlekkeloos is.
 
 ---
 
 ## De frustratie
 
-Het begon simpel. Ik had twee nieuwe velden toegevoegd: "lezen" (een checkbox) en "energie" (een emoji selector). De code zag er goed uit. De tests slaagden. Maar op mijn telefoon verdween de data gewoon.
+Het begon simpel. Claude had twee nieuwe velden toegevoegd: "lezen" (een checkbox) en "energie" (een emoji selector). De code zag er goed uit. De tests slaagden. Maar op mijn telefoon verdween de data gewoon.
 
 Ik probeerde het opnieuw. En opnieuw. Drie keer vulde ik dezelfde dag in.
 
@@ -50,7 +50,7 @@ Ergens tussen "data verzamelen" en "data opslaan" verdween alles. Claude volgde 
 saveData() → saveDataForDate() → sanitizeTrackerData() → localStorage
 ```
 
-En daar was het. `sanitizeTrackerData()`. Een functie die ik maanden geleden had geschreven om te voorkomen dat rommel in de database kwam. Een functie die alleen bekende velden doorliet.
+En daar was het. `sanitizeTrackerData()`. Een functie die Claude een paar weken geleden had geschreven, aan het begin van dit project, om te voorkomen dat rommel in de database kwam. Een functie die alleen bekende velden doorliet.
 
 Een whitelist.
 
@@ -69,7 +69,7 @@ function sanitizeTrackerData(data) {
 }
 ```
 
-Mijn eigen beveiligingscode was de saboteur.
+Claude's eigen beveiligingscode was de saboteur. De AI had een pattern geïntroduceerd en was het vervolgens zelf vergeten.
 
 ---
 
@@ -99,9 +99,24 @@ En een grote waarschuwingscomment erboven:
 
 ---
 
-## De les
+## Meer frustratie: het proces
 
-Ik heb nu een checklist. Bij elk nieuw veld:
+Dit was niet de enige frustratie van vandaag. Toen ik de sessie wilde afsluiten, bleek dat de vorige sessie niet goed was afgesloten. Geen blog geschreven. Geen uren bijgehouden.
+
+Ik heb uitgebreide documentatie in CLAUDE.md met een end-of-session checklist. Stap voor stap staat erin wat er moet gebeuren. Maar Claude leest het niet consequent. Of vergeet het. Of slaat stappen over.
+
+Het resultaat: ik moet er zelf achteraan. "Uh, vergeet je de blog niet te schrijven? En de uren?"
+
+Dat is precies het soort micro-management dat ik wilde vermijden door met AI te werken. Het proces is onbetrouwbaar. En dat moet beter.
+
+Misschien moet ik hooks inrichten die automatisch checken of alles is gedaan. Of een strenger template. Of gewoon accepteren dat AI-assistenten net zo vergeetachtig zijn als menselijke collega's.
+
+---
+
+## De lessen
+
+**Over code:**
+Bij elk nieuw veld deze checklist:
 
 1. HTML element toevoegen
 2. Event listener toevoegen
@@ -110,7 +125,10 @@ Ik heb nu een checklist. Bij elk nieuw veld:
 5. **KRITIEK: Veld toevoegen aan sanitizeTrackerData()**
 6. Statistieken updaten
 
-Stap 5 had ik twee keer gemist. Omdat de functie geen error gaf. Omdat alles "werkte". Omdat de poortwachter stil zijn werk deed.
+**Over samenwerking met AI:**
+- AI-gegenereerde code heeft patronen die de AI zelf vergeet
+- Documentatie alleen is niet genoeg - het moet afgedwongen worden
+- Vertrouwen maar verifiëren blijft nodig
 
 ---
 
@@ -118,10 +136,10 @@ Stap 5 had ik twee keer gemist. Omdat de functie geen error gaf. Omdat alles "we
 
 De gevaarlijkste bugs zijn de stille bugs. Code die faalt zonder foutmelding. Beveiliging die te goed werkt.
 
-Ik had deze functie geschreven om mezelf te beschermen tegen slechte data. En hij deed precies wat ik vroeg. Het probleem was dat ik vergeten was hem te vertellen over de nieuwe gasten.
+Maar er is nog iets gevaarlijks: aannemen dat je AI-assistent alles onthoudt en alle instructies volgt. Claude is krachtig, maar niet consistent. En dat betekent dat ik als mens de kwaliteitsbewaker blijf.
 
-Soms is de vijand niet de bug. Soms is de vijand de vergeetachtige ontwikkelaar die drie maanden eerder een slimme oplossing bedacht.
+Het is een partnerschap, geen delegatie.
 
 ---
 
-*Beveiliging is pas compleet als je ook jezelf erbij betrekt.*
+*De beste assistent is er een die je niet hoeft te controleren. Daar zijn we nog niet.*
