@@ -6,7 +6,7 @@ Persoonlijke blog over bouwen met AI en andere experimenten.
 
 - **Hugo** (static site generator)
 - **PaperMod** theme
-- **Netlify** hosting
+- **GitHub Pages** hosting
 
 ## Commands
 
@@ -154,19 +154,21 @@ Voeg waar mogelijk toe:
 ## Deployment
 
 - Push naar GitHub → GitHub Pages auto-deploy
-- URL: https://blog.modub.nl
+- URL: https://modub.nl
 
 ### DNS setup (TransIP)
 
-Voeg dit CNAME record toe in TransIP:
-
 ```
-blog.modub.nl  CNAME  mdubbelm.github.io.
+@            A      185.199.108.153
+@            A      185.199.109.153
+@            A      185.199.110.153
+@            A      185.199.111.153
+www          CNAME  mdubbelm.github.io.
 ```
 
-### GitHub Pages aanzetten
+### GitHub Pages
 
 1. Ga naar repo Settings → Pages
 2. Source: "GitHub Actions"
-3. Wacht op eerste deploy
-4. Custom domain: `blog.modub.nl`
+3. Custom domain: `modub.nl`
+4. Enforce HTTPS: aan
