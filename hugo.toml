@@ -5,8 +5,7 @@
 # Blog subdomein: blog.modub.nl (wordt later geconfigureerd via DNS/redirect)
 # =============================================================================
 
-# TODO: Verander naar https://modub.nl/ wanneer custom domain is geconfigureerd
-baseURL = 'https://mdubbelm.github.io/devblog/'
+baseURL = 'https://modub.nl/'
 languageCode = 'nl'
 title = 'Monique Dubbelman'
 theme = 'PaperMod'
