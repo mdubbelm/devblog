@@ -46,7 +46,7 @@ Dat was het moment waarop ik besefte: de data werd wél verzameld. Het probleem 
 
 Ergens tussen "data verzamelen" en "data opslaan" verdween alles. Claude volgde de code stap voor stap:
 
-```
+```text
 saveData() -> saveDataForDate() -> sanitizeTrackerData() -> localStorage
 ```
 
