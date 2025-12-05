@@ -28,17 +28,18 @@ Dit is het verhaal van hoe ik met AI als co-pilot in een paar uur een werkende P
 
 Lees het hele verhaal hieronder, of spring naar een specifiek moment.
 
-| # | Post | Thema |
-|---|------|-------|
-| 13 | [De kunst van bug hunting](2025-12-03-bug-hunting) | debugging |
-| 12 | [Mijn eigen gewoontes](2025-11-30-mijn-eigen-gewoontes) | custom habits |
-| 9 | [Vijf dingen af in één sessie](2025-11-29-feature-rush) | productiviteit |
-| 8 | [De mens achter de prompt](2025-11-29-de-mens-achter-de-prompt) | reflectie |
-| 7.5 | [Mijn virtuele team](2025-11-29-mijn-virtuele-team) | agents |
-| 7 | [iOS polish](2025-11-29-ios-polish) | ux |
-| 6 | [We're live!](2025-11-28-live) | deployment |
-| 5 | [Phase 0 complete!](2025-11-26-phase-0-done) | milestone |
-| 4 | [Testing done](2025-11-25-testing) | quality |
-| 3 | [We gaan te snel!](2025-11-22-te-snel) | proces |
-| 2 | [MVP live!](2025-11-22-mvp-live) | milestone |
-| 1 | [Het begin](2025-11-22-het-begin) | kickoff |
+| Datum | Post | Thema |
+|-------|------|-------|
+| 5 dec | [De onzichtbare poortwachter](2025-12-05-de-onzichtbare-poortwachter) | debugging |
+| 3 dec | [De kunst van bug hunting](2025-12-03-bug-hunting) | debugging |
+| 30 nov | [Mijn eigen gewoontes](2025-11-30-mijn-eigen-gewoontes) | custom habits |
+| 29 nov | [Vijf dingen af in één sessie](2025-11-29-feature-rush) | productiviteit |
+| 29 nov | [De mens achter de prompt](2025-11-29-de-mens-achter-de-prompt) | reflectie |
+| 29 nov | [Mijn virtuele team](2025-11-29-mijn-virtuele-team) | agents |
+| 29 nov | [iOS polish](2025-11-29-ios-polish) | ux |
+| 28 nov | [We're live!](2025-11-28-live) | deployment |
+| 26 nov | [Phase 0 complete!](2025-11-26-phase-0-done) | milestone |
+| 25 nov | [Testing done](2025-11-25-testing) | quality |
+| 22 nov | [We gaan te snel!](2025-11-22-te-snel) | proces |
+| 22 nov | [MVP live!](2025-11-22-mvp-live) | milestone |
+| 22 nov | [Het begin](2025-11-22-het-begin) | kickoff |
