@@ -47,7 +47,7 @@ Dat was het moment waarop ik besefte: de data werd wél verzameld. Het probleem 
 Ergens tussen "data verzamelen" en "data opslaan" verdween alles. Claude volgde de code stap voor stap:
 
 ```
-saveData() → saveDataForDate() → sanitizeTrackerData() → localStorage
+saveData() -> saveDataForDate() -> sanitizeTrackerData() -> localStorage
 ```
 
 En daar was het. `sanitizeTrackerData()`. Een functie die Claude een paar weken geleden had geschreven, aan het begin van dit project, om te voorkomen dat rommel in de database kwam. Een functie die alleen bekende velden doorliet.
