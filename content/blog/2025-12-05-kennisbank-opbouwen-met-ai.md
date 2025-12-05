@@ -34,20 +34,20 @@ Tijd voor een centrale kennisbank.
 
 We maakten een `_knowledge/` folder met thematische bestanden:
 
-```
+```text
 _knowledge/
-├── bronnen.md             ← Externe links (WCAG, MDN, etc.)
-├── frontend/
-│   ├── browser-quirks.md  ← Safari, iOS, MediaRecorder
-│   ├── css-patterns.md    ← Variables, safe areas
-│   └── data-persistence.md ← localStorage patterns
-├── devops/
-│   ├── project-setup.md   ← CI/CD, GitHub Actions
-│   └── versioning.md      ← Semantic versioning
-├── design/
-│   └── design-principles.md ← Kleur, a11y, modals
-└── audits/
-    └── 2025-12-05-audit.md ← Project health checks
+  bronnen.md                  -- Externe links (WCAG, MDN, etc.)
+  frontend/
+    browser-quirks.md         -- Safari, iOS, MediaRecorder
+    css-patterns.md           -- Variables, safe areas
+    data-persistence.md       -- localStorage patterns
+  devops/
+    project-setup.md          -- CI/CD, GitHub Actions
+    versioning.md             -- Semantic versioning
+  design/
+    design-principles.md      -- Kleur, a11y, modals
+  audits/
+    2025-12-05-audit.md       -- Project health checks
 ```
 
 Elk bestand volgt een vast format: wanneer je dit gebruikt, wat het pattern is, waarom het werkt, waar het vandaan komt.
