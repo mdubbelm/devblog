@@ -31,16 +31,16 @@ Lees het hele verhaal hieronder, of spring naar een specifiek moment.
 
 | Datum | Post | Thema |
 |-------|------|-------|
-| 5 dec | [De onzichtbare poortwachter](/blog/2025/12/de-onzichtbare-poortwachter/) | debugging |
-| 3 dec | [De kunst van bug hunting](/blog/2025/12/de-kunst-van-bug-hunting/) | debugging |
-| 30 nov | [Mijn eigen gewoontes](/blog/2025/11/mijn-eigen-gewoontes/) | custom habits |
-| 29 nov | [Vijf dingen af in één sessie](/blog/2025/11/vijf-dingen-af-in-één-sessie/) | productiviteit |
-| 29 nov | [De mens achter de prompt](/blog/2025/11/de-mens-achter-de-prompt/) | reflectie |
-| 29 nov | [Mijn virtuele team](/blog/2025/11/mijn-virtuele-team/) | agents |
-| 29 nov | [iOS polish](/blog/2025/11/ios-polish-pull-to-refresh-wheel-picker/) | ux |
-| 28 nov | [We're live!](/blog/2025/11/were-live/) | deployment |
-| 26 nov | [Phase 0 complete!](/blog/2025/11/de-dag-dat-alles-samenkwam/) | milestone |
-| 25 nov | [Testing done](/blog/2025/11/testing-done-van-51-naar-80-accessibility/) | quality |
-| 22 nov | [We gaan te snel!](/blog/2025/11/we-gaan-te-snel-de-agile-wake-up-call/) | proces |
-| 22 nov | [MVP live!](/blog/2025/11/mvp-live-van-0-naar-werkende-app-in-65-minuten/) | milestone |
-| 22 nov | [Het begin](/blog/2025/11/het-begin-van-idee-naar-project-in-15-minuten/) | kickoff |
+| 5 dec | [De onzichtbare poortwachter](/blog/habittracker/de-onzichtbare-poortwachter/) | debugging |
+| 3 dec | [De kunst van bug hunting](/blog/habittracker/bug-hunting/) | debugging |
+| 30 nov | [Mijn eigen gewoontes](/blog/habittracker/mijn-eigen-gewoontes/) | custom habits |
+| 29 nov | [Vijf dingen af in één sessie](/blog/habittracker/feature-rush/) | productiviteit |
+| 29 nov | [De mens achter de prompt](/blog/habittracker/de-mens-achter-de-prompt/) | reflectie |
+| 29 nov | [Mijn virtuele team](/blog/habittracker/mijn-virtuele-team/) | agents |
+| 29 nov | [iOS polish](/blog/habittracker/ios-polish/) | ux |
+| 28 nov | [We're live!](/blog/habittracker/live/) | deployment |
+| 26 nov | [Phase 0 complete!](/blog/habittracker/phase-0-done/) | milestone |
+| 25 nov | [Testing done](/blog/habittracker/testing/) | quality |
+| 22 nov | [We gaan te snel!](/blog/habittracker/te-snel/) | proces |
+| 22 nov | [MVP live!](/blog/habittracker/mvp-live/) | milestone |
+| 22 nov | [Het begin](/blog/habittracker/het-begin/) | kickoff |

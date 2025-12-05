@@ -80,8 +80,8 @@ Hier deel ik mijn projecten, experimenten en gedachten."""
 # Pretty URLs
 # =============================================================================
 [permalinks]
-  # Blog posts krijgen datum in URL
-  blog = "/blog/:year/:month/:slug/"
+  # Blog posts behouden hun sectie-pad
+  blog = "/blog/:sections/:slug/"
   # Statische pagina's direct onder root
   pages = "/:slug/"
 
