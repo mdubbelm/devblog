@@ -87,22 +87,7 @@
             {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
             {{- $page_url:= $currentPage.Permalink | absLangURL }}
             {{- $is_search := eq (site.GetPage .KeyName).Layout `search` }}
-            {{- $is_blog := eq .Identifier "blog" }}
-            <li{{ if $is_blog }} class="has-submenu"{{ end }}>
-                {{- if $is_blog }}
-                <button class="submenu-toggle" aria-expanded="false" aria-controls="blog-submenu" aria-haspopup="true">
-                    <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
-                        {{- .Name -}}
-                    </span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="dropdown-arrow" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                </button>
-                <ul class="submenu" id="blog-submenu" role="menu" aria-label="Blog categorieën">
-                    <li role="none"><a href="/blog/" role="menuitem">Alle posts</a></li>
-                    {{- range (site.GetPage "/blog").Sections }}
-                    <li role="none"><a href="{{ .RelPermalink }}" role="menuitem">{{ .Title }}</a></li>
-                    {{- end }}
-                </ul>
-                {{- else }}
+            <li>
                 <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
                 {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
                     <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
@@ -119,7 +104,6 @@
                     </svg>
                     {{- end }}
                 </a>
-                {{- end }}
             </li>
             {{- end }}
         </ul>
