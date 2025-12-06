@@ -18,6 +18,13 @@ if [[ "$1" == "--dry-run" ]]; then
     DRY_RUN=true
 fi
 
+# macOS notificatie functie
+notify() {
+    local title="$1"
+    local message="$2"
+    osascript -e "display notification \"$message\" with title \"$title\" sound name \"Glass\""
+}
+
 # Zorg dat log directory bestaat
 mkdir -p "$(dirname "$LOG_FILE")"
 
@@ -121,8 +128,15 @@ fi
 log "Pushen naar GitHub..."
 if git push origin main >> "$LOG_FILE" 2>&1; then
     log "Push succesvol! GitHub Actions zal nu deployen naar GitHub Pages."
+
+    # Verzamel gepubliceerde posts voor notificatie
+    PUBLISHED_POSTS=$(git diff --name-only origin/main~${LOCAL_COMMITS}..origin/main 2>/dev/null | grep -E "^content/blog/.*\.md$" | grep -v "_index.md" | xargs -I {} basename {} .md | head -3 | tr '\n' ', ' | sed 's/,$//' || echo "content updates")
+
+    # Stuur macOS notificatie
+    notify "Blog gepubliceerd" "$PUBLISHED_POSTS"
 else
     log "ERROR: Push gefaald!"
+    notify "Blog publish GEFAALD" "Check logs: $LOG_FILE"
     exit 1
 fi
 
