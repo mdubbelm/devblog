@@ -11,6 +11,7 @@ Hoe werk je effectief samen met AI? Niet als vervanging, maar als versterking. D
 
 | Datum | Post | Onderwerp |
 |-------|------|-----------|
+| 8 dec | [Bugs melden vanaf de bank](/blog/ai-workflow/2025-12-08-bugs-melden-vanaf-de-bank/) | workflow |
 | 6 dec | [Ik kan nu alles maken](/blog/ai-workflow/ik-kan-nu-alles-maken/) | reflectie |
 | 5 dec | [Een kennisbank opbouwen met AI](/blog/ai-workflow/een-kennisbank-opbouwen-met-ai/) | kennismanagement |
 | 4 dec | [AI agents als virtueel team](/blog/ai-workflow/ai-agents-als-virtueel-team/) | agents |
