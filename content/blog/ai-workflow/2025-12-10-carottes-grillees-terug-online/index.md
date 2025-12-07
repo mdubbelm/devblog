@@ -1,6 +1,7 @@
 ---
 title: "Carottes grillées is terug online"
 date: 2025-12-10T10:00:00+01:00
+draft: true
 tags: [ai, workflow, migratie, hugo]
 user_time: "3 uur"
 ai_time: "3 uur"

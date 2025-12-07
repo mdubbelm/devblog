@@ -31,9 +31,48 @@ content/
 
 ## Nieuwe post toevoegen
 
-1. Kopieer post van `~/Projecten/habittracker/blog/` naar `content/habittracker/`
-2. Check frontmatter (geen nested `stats:`)
-3. Test lokaal met `hugo server`
+### Workflow
+
+1. Maak een nieuw `.md` bestand in de juiste map:
+   - `content/blog/ai-workflow/` - Posts over AI en agents
+   - `content/blog/habittracker/` - Health tracker serie
+   - `content/blog/archief/` - Overige posts
+
+2. Voeg frontmatter toe (zie template hieronder)
+
+3. Test lokaal: `hugo server --buildDrafts`
+
+4. Commit lokaal: `git add . && git commit -m "Add: [titel]"`
+
+5. **Auto-publish** pakt het op (dagelijks tussen 7:00-13:00)
+   - Of handmatig pushen: `git push`
+
+### Draft en scheduled publishing
+
+**BELANGRIJK: Alle nieuwe posts krijgen `draft: true`**
+
+Het auto-publish script publiceert posts automatisch wanneer hun datum is aangebroken:
+- Post met `draft: true` en datum vandaag of eerder → wordt automatisch gepubliceerd
+- Post met `draft: true` en datum in de toekomst → blijft draft tot die datum
+
+```yaml
+---
+title: "Mijn nieuwe post"
+date: 2025-12-10T10:00:00+01:00   # ← Geplande publicatiedatum
+draft: true                        # ← ALTIJD toevoegen bij nieuwe posts
+tags: [ai]
+---
+```
+
+Dit zorgt voor scheduled publishing: schrijf posts vooruit, zet de gewenste publicatiedatum, en het script doet de rest.
+
+### Bestandsnaam conventie
+
+```
+YYYY-MM-DD-korte-beschrijving.md
+```
+
+Voorbeeld: `2025-12-06-ik-kan-nu-alles-maken.md`
 
 ## Schrijfstijl van Monique
 
@@ -102,6 +141,7 @@ Reflectie, inzichten. Vaak in bullet points.
 ---
 title: "Titel in sentence case"
 date: 2025-11-30T22:00:00+01:00
+draft: true                    # ← ALTIJD bij nieuwe posts
 session: 12                    # Sessienummer
 tags: [features, ux, reflectie]
 user_time: "30 min"            # Jouw tijdsinvestering
