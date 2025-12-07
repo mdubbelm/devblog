@@ -97,12 +97,12 @@ De token sla je direct op in de Shortcut. Niet ideaal vanuit security-perspectie
 
 ---
 
-## En nu?
+## Update: te ingewikkeld
 
-Nu kan ik vanuit de bank een bug spotten, twee keer tikken, een titel intypen, en verder met mijn avond. De issue staat op GitHub, compleet met screenshot en context. Geen context-switch, geen laptop nodig.
+Een dag later bleek deze aanpak toch niet zo handig. De screenshots die naar de repo werden gecommit, zaten mijn auto-publish script in de weg. Elke screenshot was een commit op main, waardoor het blog-publicatie script in conflict kwam met de lokale wijzigingen.
 
-*Soms is de beste developer tool er eentje die je zelf in elkaar knutselt.*
+Toen ik de screenshot-functionaliteit eruit haalde om dat op te lossen, werkte de hele Shortcut niet meer. De twee API calls (screenshot uploaden en issue aanmaken) waren zo verweven dat het verwijderen van de ene de andere brak.
 
----
+Conclusie: te veel bewegende delen. Ik ga op zoek naar een eenvoudigere oplossing. Misschien gewoon issues aanmaken zonder screenshot — die kun je later alsnog toevoegen via de GitHub app. Of een compleet andere aanpak.
 
-De volledige Shortcut is te complex om te exporteren als leesbaar bestand, maar de stappen hierboven plus wat experimenteren zouden je er moeten brengen. Of vraag het aan Claude — die heeft er nu ervaring mee ;).
+*Soms is de beste developer tool er eentje die gewoon werkt. Deze was dat (nog) niet.*
