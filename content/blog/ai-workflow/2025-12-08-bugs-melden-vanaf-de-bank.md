@@ -1,7 +1,7 @@
 ---
 title: "Bugs melden vanaf de bank — een iOS Shortcut voor GitHub Issues"
 date: 2025-12-08T09:00:00+01:00
-draft: false
+draft: true
 tags: [ios, shortcuts, github, workflow]
 description: "Een iOS Shortcut die met twee tikken een GitHub issue aanmaakt, inclusief screenshot. Zonder externe diensten."
 ---
