@@ -40,31 +40,33 @@ content/
 
 2. Voeg frontmatter toe (zie template hieronder)
 
-3. Test lokaal: `hugo server --buildDrafts`
+3. Test lokaal: `hugo server`
 
-4. Commit lokaal: `git add . && git commit -m "Add: [titel]"`
+4. Push naar GitHub: `git add . && git commit -m "Add: [titel]" && git push`
 
-5. **Auto-publish** pakt het op (dagelijks tussen 7:00-13:00)
-   - Of handmatig pushen: `git push`
+5. Post gaat automatisch live wanneer de datum is bereikt
 
-### Draft en scheduled publishing
+### Scheduled publishing
 
-**BELANGRIJK: Alle nieuwe posts krijgen `draft: true`**
-
-Het auto-publish script publiceert posts automatisch wanneer hun datum is aangebroken:
-- Post met `draft: true` en datum vandaag of eerder → wordt automatisch gepubliceerd
-- Post met `draft: true` en datum in de toekomst → blijft draft tot die datum
+Posts worden gepubliceerd op basis van hun `date` in de frontmatter. Hugo negeert posts met een datum in de toekomst.
 
 ```yaml
 ---
 title: "Mijn nieuwe post"
-date: 2025-12-10T10:00:00+01:00   # ← Geplande publicatiedatum
-draft: true                        # ← ALTIJD toevoegen bij nieuwe posts
+date: 2025-12-10T10:00:00+01:00   # ← Post gaat live op 10 december
+draft: false                       # ← Gebruik GEEN draft: true voor scheduled posts
 tags: [ai]
 ---
 ```
 
-Dit zorgt voor scheduled publishing: schrijf posts vooruit, zet de gewenste publicatiedatum, en het script doet de rest.
+**Hoe het werkt:**
+- Push posts meteen naar GitHub, ook als de datum in de toekomst ligt
+- GitHub Actions draait elke ochtend (07:00-11:00 CET, random tijd)
+- Posts gaan automatisch live wanneer hun datum is bereikt
+
+**Wanneer wel `draft: true`?**
+- Alleen voor posts die nog niet af zijn (work in progress)
+- Niet voor scheduled posts met een toekomstige datum
 
 ### Bestandsnaam conventie
 
@@ -140,15 +142,10 @@ Reflectie, inzichten. Vaak in bullet points.
 ```yaml
 ---
 title: "Titel in sentence case"
-date: 2025-11-30T22:00:00+01:00
-draft: true                    # ← ALTIJD bij nieuwe posts
-session: 12                    # Sessienummer
+date: 2025-11-30T22:00:00+01:00  # Publicatiedatum (toekomst = scheduled)
+draft: false                     # Alleen true voor work-in-progress
 tags: [features, ux, reflectie]
-user_time: "30 min"            # Jouw tijdsinvestering
-ai_time: "2 uur"               # AI tijdsinvestering
-efficiency: "1:4"              # Ratio user:ai
-version: "0.3.0"               # App versie (optioneel)
-mood: "🎯"                     # Emoji die de sessie typeert
+description: "Korte beschrijving voor SEO en social sharing"
 ---
 ```
 

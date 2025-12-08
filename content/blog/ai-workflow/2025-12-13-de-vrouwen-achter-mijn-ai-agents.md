@@ -1,7 +1,7 @@
 ---
 title: "De vrouwen achter mijn AI agents"
 date: 2025-12-13T09:00:00+01:00
-draft: true
+draft: false
 tags: [ai, vrouwen-in-tech, eerbetoon]
 description: "Waarom mijn AI agents allemaal vernoemd zijn naar vrouwen die de weg baanden in tech, design en wetenschap."
 ---
