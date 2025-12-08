@@ -5,8 +5,9 @@ on:
   push:
     branches: ["main"]
   schedule:
-    # Dagelijks om 08:00 UTC (09:00 CET) voor scheduled posts
-    - cron: '0 8 * * *'
+    # Dagelijks om 06:00 UTC (07:00 CET), workflow voegt 0-4 uur random delay toe
+    # Resultaat: publicatie ergens tussen 07:00 en 11:00 CET
+    - cron: '0 6 * * *'
   workflow_dispatch:
 
 permissions:
@@ -28,6 +29,13 @@ jobs:
     env:
       HUGO_VERSION: 0.146.0
     steps:
+      - name: Random delay (alleen bij scheduled run)
+        if: github.event_name == 'schedule'
+        run: |
+          # Random delay 0-4 uur (0-14400 seconden) voor variatie in publicatietijd
+          DELAY=$((RANDOM % 14400))
+          echo "Wacht $((DELAY / 3600)) uur en $(((DELAY % 3600) / 60)) minuten..."
+          sleep $DELAY
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
