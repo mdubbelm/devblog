@@ -4,6 +4,9 @@ name: Deploy Hugo site to Pages
 on:
   push:
     branches: ["main"]
+  schedule:
+    # Dagelijks om 08:00 UTC (09:00 CET) voor scheduled posts
+    - cron: '0 8 * * *'
   workflow_dispatch:
 
 permissions:
