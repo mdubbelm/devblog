@@ -1,6 +1,6 @@
 ---
 title: "Opnieuw starten als parttime ondernemer"
-date: 2025-12-12T09:00:00+01:00
+date: 2025-12-14T09:00:00+01:00
 draft: false
 tags: [ondernemen, reflectie, ai]
 description: "Het kriebelt om weer iets voor mezelf te doen. Maar wil ik die verplichtingen wel?"
