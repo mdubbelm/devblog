@@ -8,8 +8,6 @@ ai_time: "nvt"
 mood: "💭"
 ---
 
-# De mens achter de prompt
-
 Na zeven sessies en een werkende app is het tijd voor een eerlijk gesprek. Want de verhalen hiervoor kunnen een verkeerd beeld geven.
 
 ## Het misverstand

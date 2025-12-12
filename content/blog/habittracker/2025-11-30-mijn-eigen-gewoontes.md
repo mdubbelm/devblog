@@ -10,8 +10,6 @@ version: "0.3.0"
 mood: "🎯"
 ---
 
-# Mijn eigen gewoontes
-
 Elke health tracker heeft dezelfde checkboxes. Slaap. Water. Beweging. Maar mijn leven is niet standaard.
 
 Vandaag bouwde ik custom habits.

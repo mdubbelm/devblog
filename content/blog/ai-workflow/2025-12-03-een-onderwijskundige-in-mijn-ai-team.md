@@ -4,8 +4,6 @@ date: 2025-12-03T14:00:00+01:00
 tags: [ai, workflow, agents, leren]
 ---
 
-# Een onderwijskundige in mijn AI-team
-
 Vandaag realiseerde ik me dat mijn taalleer-app geen idee heeft hoe mensen leren.
 
 ---

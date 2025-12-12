@@ -10,8 +10,6 @@ version: "0.2.0"
 mood: "🚀"
 ---
 
-# Vijf dingen af in één sessie
-
 Soms stroomt het gewoon. Je begint met "waar was ik gebleven?" en twee uur later heb je vijf verbeteringen doorgevoerd.
 
 Vandaag was zo'n dag.

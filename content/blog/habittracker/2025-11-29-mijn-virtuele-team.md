@@ -8,8 +8,6 @@ ai_time: "nvt"
 mood: "💡"
 ---
 
-# Mijn virtuele team
-
 Hoe tekstbestanden me helpen denken.
 
 ---

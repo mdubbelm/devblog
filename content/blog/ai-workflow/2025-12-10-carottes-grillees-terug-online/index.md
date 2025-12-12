@@ -9,8 +9,6 @@ efficiency: "1:1"
 mood: "🥕"
 ---
 
-# Carottes grillées is terug online
-
 Al jaren was de website van Jacob offline. De vormgeving was kapot, de site zag er niet uit, en we hadden er gewoon geen fut voor om het aan te pakken. Tot afgelopen zaterdagavond.
 
 ---
