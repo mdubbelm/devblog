@@ -80,10 +80,11 @@ Hier deel ik mijn projecten, experimenten en gedachten."""
 # Pretty URLs
 # =============================================================================
 [permalinks]
-  # Blog posts behouden hun sectie-pad
-  blog = "/blog/:sections/:slug/"
-  # Statische pagina's direct onder root
-  pages = "/:slug/"
+  [permalinks.page]
+    # Blog posts: /blog/sectie/slug/ (zonder dubbele /blog/)
+    blog = "/:sections/:slug/"
+  [permalinks.section]
+    blog = "/:sections/"
 
 # =============================================================================
 # Build settings

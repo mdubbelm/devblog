@@ -1,24 +1,34 @@
 {
-  "timestamp": "2025-12-01T19:53:00+01:00",
-  "summary": "Workflow verbeteringen doorgevoerd voor zweedsapp en habittracker na frustratie over niet-gevolgde processen. Centrale CLAUDE.md aangescherpt met STOP-sectie, pre-push hooks geïnstalleerd, branch protection ingesteld op GitHub. Falende cross-browser tests uitgeschakeld (issue #47). Blogpost geschreven over het proces en gepubliceerd op blog.modub.nl in nieuwe 'AI & ik' sectie.",
+  "timestamp": "2025-12-09T19:30:00+01:00",
+  "summary": "Blogpost 'Jack of all trades' geschreven over generalist zijn in het AI-tijdperk. Planning aangepast naar om de dag publiceren.",
   "filesModified": [
-    "~/Projecten/CLAUDE.md - STOP-sectie toegevoegd met verplichte workflow regels",
-    "~/Projecten/_templates/husky/pre-push - nieuwe template voor pre-push hook",
-    "~/Projecten/_templates/README.md - documentatie voor templates",
-    "~/Projecten/zweedsapp/.husky/pre-push - pre-push hook geïnstalleerd",
-    "~/Projecten/habittracker/.husky/pre-push - pre-push hook geïnstalleerd",
-    "~/Projecten/habittracker/.github/workflows/ci.yml - cross-browser tests uitgeschakeld",
-    "~/Projecten/devblog/content/posts/2025-12-01-mijn-ai-team-gedraagt-zich-als-mensen.md - nieuwe blogpost",
-    "~/Projecten/devblog/content/posts/_index.md - sectie index aangemaakt",
-    "~/Projecten/devblog/hugo.toml - menu item 'AI & ik' toegevoegd"
+    "content/blog/ai-workflow/2025-12-11-jack-of-all-trades/index.md - Nieuwe post over generalist zijn",
+    "content/blog/2025-12-12-opnieuw-starten-als-parttime-ondernemer.md - Datum verplaatst naar 14 dec",
+    "content/blog/ai-workflow/2025-12-13-de-vrouwen-achter-mijn-ai-agents.md - Datum verplaatst naar 16 dec"
+  ],
+  "completedTasks": [
+    "Blogpost 'Jack of all trades' geschreven met persoonlijke achtergrond",
+    "Drukkerij-ervaring als parallel voor AI-werk",
+    "Helsinki JavaScript-opleiding als voorbeeld van overschat worden",
+    "Concreet AI-voorbeeld toegevoegd (div vs h2)",
+    "Overheidswerk als vertaler-rol toegevoegd",
+    "Volledige uitdrukking met Nederlandse vertaling",
+    "Planning aangepast: om de dag ipv dagelijks",
+    "Alles gepusht naar GitHub"
   ],
   "nextSteps": [
-    "Cross-browser tests fixen in habittracker (issue #47)",
-    "Meer posts schrijven in 'AI & ik' sectie",
-    "Pre-push hooks testen bij volgende development sessies"
+    "Habittracker project oppakken",
+    "Carottes grillées: #10 Responsief design (NOW prioriteit)",
+    "Carottes grillées: #19 Alt-teksten voor afbeeldingen"
   ],
   "openIssues": [
-    "habittracker issue #47: Cross-browser tests falen door verouderde selectors"
+    "Habittracker - status onbekend, moet worden opgepakt"
   ],
-  "todoList": "Geen actieve todos"
+  "publishSchedule": [
+    "10 dec: Carottes grillées is terug online",
+    "12 dec: Jack of all trades",
+    "14 dec: Opnieuw starten als parttime ondernemer",
+    "16 dec: De vrouwen achter mijn AI agents"
+  ],
+  "todoList": []
 }
