@@ -20,11 +20,11 @@ Vandaag was zo'n dag.
 
 Ik had een probleem: te veel ideeën, te weinig tijd. Wat moet ik eerst doen?
 
-Normaal zou ik gewoon beginnen met wat het leukst lijkt. Maar deze keer vroeg ik het aan **Tessa** - mijn virtuele product owner.
+Normaal zou ik gewoon beginnen met wat het leukst lijkt. Maar deze keer vroeg ik het aan **Johanna** - mijn virtuele product owner.
 
-### Even uitleggen: wie is Tessa?
+### Even uitleggen: wie is Johanna?
 
-In mijn werkmap heb ik een verzameling "agents" - tekstbestanden die Claude vertellen hoe hij zich moet gedragen. Tessa is er één van. Als ik haar "laad", denkt Claude vanuit het perspectief van een product owner.
+In mijn werkmap heb ik een verzameling "agents" - tekstbestanden die Claude vertellen hoe hij zich moet gedragen. Johanna is er één van. Als ik haar "laad", denkt Claude vanuit het perspectief van een product owner.
 
 Ze heeft een framework voor prioritering: hoeveel impact heeft iets, versus hoeveel moeite kost het? Simpel rekensommetje, en je weet wat je eerst moet doen.
 
@@ -66,7 +66,7 @@ Niet iedereen wil alles bijhouden. Sommigen willen alleen slaap en water. Andere
 
 **Kleine dingen stapelen werkt.** Vijf kleine verbeteringen voelen beter dan één grote feature die half af is. De momentum van "klaar, klaar, klaar" is verslavend.
 
-**Een framework helpt kiezen.** Zonder Tessa's impact/moeite-rekensommetje had ik waarschijnlijk iets groots en moeilijks gepakt. Nu deed ik vijf quick wins.
+**Een framework helpt kiezen.** Zonder Johanna's impact/moeite-rekensommetje had ik waarschijnlijk iets groots en moeilijks gepakt. Nu deed ik vijf quick wins.
 
 **Je hoeft niet alles zelf te bedenken.** Die agents zijn gewoon tekstbestanden, maar ze helpen me denken vanuit een ander perspectief. Soms is dat precies wat je nodig hebt.
 

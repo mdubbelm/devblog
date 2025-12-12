@@ -26,7 +26,7 @@ In mijn werkmap heb ik een verzameling "agents" - simpele tekstbestanden die Cla
 
 Zo'n bestand zegt bijvoorbeeld:
 
-> "Je bent Tessa, een product owner. Je helpt met prioriteren door te kijken naar impact en moeite. Je stelt kritische vragen en daagt aannames uit."
+> "Je bent Johanna, een product owner. Je helpt met prioriteren door te kijken naar impact en moeite. Je stelt kritische vragen en daagt aannames uit."
 
 Als ik dit bestand "laad", gedraagt Claude zich als een product owner. Niet perfect, maar goed genoeg om me te helpen denken.
 
@@ -36,9 +36,9 @@ Als ik dit bestand "laad", gedraagt Claude zich als een product owner. Niet perf
 
 | Naam | Rol | Wanneer ik haar vraag |
 |------|-----|----------------------|
-| **Tessa** | Product Owner | "Wat moet ik eerst doen?" |
+| **Johanna** | Product Owner | "Wat moet ik eerst doen?" |
 | **Kehrana** | UI Designer | "Hoe moet dit eruit zien?" |
-| **Anneke** | Frontend Developer | "Is deze code goed?" |
+| **Sophie** | Frontend Developer | "Is deze code goed?" |
 | **Rian** | Accessibility Expert | "Kan iedereen dit gebruiken?" |
 
 Ze zijn geen echte mensen. Ze zijn instructies. Maar ze dwingen me om vanuit een ander perspectief te denken.
@@ -49,7 +49,7 @@ Ze zijn geen echte mensen. Ze zijn instructies. Maar ze dwingen me om vanuit een
 
 **Stap 1:** Ik heb een vraag. Bijvoorbeeld: "Ik heb vijf ideeën, wat moet ik eerst doen?"
 
-**Stap 2:** Ik vraag Claude om Tessa te laden. (Of Claude leest het bestand automatisch.)
+**Stap 2:** Ik vraag Claude om Johanna te laden. (Of Claude leest het bestand automatisch.)
 
 **Stap 3:** Claude antwoordt vanuit dat perspectief:
 
@@ -61,11 +61,11 @@ Ze zijn geen echte mensen. Ze zijn instructies. Maar ze dwingen me om vanuit een
 
 ## Waarom dit werkt
 
-**Ik hoef niet alles zelf te bedenken.** Tessa heeft een framework voor prioriteren. Ik had dat zelf kunnen verzinnen, maar nu hoef ik dat niet.
+**Ik hoef niet alles zelf te bedenken.** Johanna heeft een framework voor prioriteren. Ik had dat zelf kunnen verzinnen, maar nu hoef ik dat niet.
 
 **Het dwingt een ander perspectief af.** Als ik denk "dit is wel goed genoeg", vraagt Rian: "Kan iemand met een screenreader dit gebruiken?"
 
-**De expert is altijd beschikbaar.** Om 22:00 's avonds wil ik even sparren? Tessa is er.
+**De expert is altijd beschikbaar.** Om 22:00 's avonds wil ik even sparren? Johanna is er.
 
 **Geen eindeloos twijfelen.** Er is een framework. Er komt een antwoord. Ik kan door.
 
