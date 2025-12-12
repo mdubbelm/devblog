@@ -46,7 +46,7 @@ _knowledge/
     design-principles.md      -- Kleur, a11y, modals
   audits/
     2025-12-05-audit.md       -- Project health checks
-```
+```text
 
 Elk bestand volgt een vast format: wanneer je dit gebruikt, wat het pattern is, waarom het werkt, waar het vandaan komt.
 

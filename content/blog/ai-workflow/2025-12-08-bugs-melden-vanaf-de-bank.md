@@ -37,7 +37,7 @@ De oplossing bleek simpeler dan gedacht: de screenshot als bestand committen naa
 
 ```text
 https://raw.githubusercontent.com/gebruiker/repo/main/screenshots/123456.png
-```
+```text
 
 Elegant? Mwah. Werkt het? Ja.
 
@@ -83,7 +83,7 @@ Bouw issue body met URL en screenshot
 POST naar GitHub Issues API
     ↓
 Toon bevestiging
-```
+```text
 
 ---
 

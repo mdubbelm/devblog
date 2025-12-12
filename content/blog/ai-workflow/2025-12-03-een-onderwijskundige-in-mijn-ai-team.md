@@ -44,12 +44,12 @@ Ik heb een nieuwe agent aangemaakt: Lotte. Haar expertise:
 
 Ze heeft concrete frameworks. Bijvoorbeeld voor een Daily Program:
 
-```
+```text
 2 zinnen - Review (gisteren geleerd)
 3 zinnen - Herhaling (oudere items, SRS-schema)
 3 zinnen - Nieuw (op gebruikersniveau)
 2 items  - Grammatica-mini (werkwoord/voornaamwoord)
-```
+```text
 
 In plaats van 10 willekeurige zinnen.
 
