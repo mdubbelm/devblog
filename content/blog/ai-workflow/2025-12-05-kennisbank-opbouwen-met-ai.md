@@ -4,8 +4,6 @@ date: 2025-12-05T22:00:00+01:00
 tags: [ai, workflow, documentatie, kennismanagement]
 ---
 
-# Een kennisbank opbouwen met AI
-
 Vandaag heb ik opgeruimd. Niet mijn bureau (dat is hopeloos), maar mijn projectenmap. Wat begon als "even die losse bestanden consolideren" werd een complete herstructurering van hoe ik kennis bewaar.
 
 ---

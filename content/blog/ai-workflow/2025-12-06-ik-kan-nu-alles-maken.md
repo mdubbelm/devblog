@@ -4,8 +4,6 @@ date: 2025-12-06T10:00:00+01:00
 tags: [ai, workflow, reflectie, programmeren]
 ---
 
-# Ik kan nu alles maken
-
 Alexander Klöpping had een doorbraak. In de laatste aflevering van AI Report vertelt hij hoe hij als niet-programmeur in één dag een werkende tool bouwde met Claude. Cursor's nieuwe agent mode verbergt alle code — je ziet alleen een chatvenster en een browser.
 
 En toen zei hij iets wat me raakte: het gevoel dat je nu *alles* kunt maken wat je wilt.

@@ -4,8 +4,6 @@ date: 2025-12-04T21:00:00+01:00
 tags: [ai, workflow, agents, svenska-kat]
 ---
 
-# AI agents als virtueel team
-
 Vandaag deed ik iets raars. Ik stelde een vraag aan een Product Owner, liet een UX Designer wireframes maken, en vroeg een Developer om te implementeren. Niemand van hen bestaat.
 
 ---

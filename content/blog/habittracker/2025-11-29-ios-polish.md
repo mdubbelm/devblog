@@ -10,8 +10,6 @@ version: "0.2.0"
 mood: "💅"
 ---
 
-# iOS polish
-
 ## "Het moet aanvoelen als een echte app"
 
 De app werkt. De app is live. Maar... het voelt nog als een website.

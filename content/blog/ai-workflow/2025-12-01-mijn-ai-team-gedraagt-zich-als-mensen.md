@@ -4,8 +4,6 @@ date: 2025-12-01T19:30:00+01:00
 tags: [ai, workflow, proces]
 ---
 
-# Mijn AI-team gedraagt zich als mensen
-
 Gisteren was ik gefrustreerd. Mijn AI-team negeerde de regels. Pushte direct naar main. Sloeg lokaal testen over. Vergat de design principles te checken.
 
 Het leken wel echte mensen.
