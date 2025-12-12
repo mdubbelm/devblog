@@ -57,7 +57,7 @@ Terwijl ik toch bezig was, heb ik wat dingetjes opgeschoond:
 
 Ik had een lijst van zeven mogelijke verbeteringen. Welke eerst?
 
-Tessa (mijn virtuele product owner) heeft een simpel rekensommetje:
+Johanna (mijn virtuele product owner) heeft een simpel rekensommetje:
 
 ```text
 Prioriteit = (Impact × 2) / Moeite

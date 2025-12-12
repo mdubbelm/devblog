@@ -22,14 +22,14 @@ Ik werk met Claude Code, en daarin heb ik een "team" van agents geconfigureerd:
 
 | Naam | Rol | Wat ze doet |
 |------|-----|-------------|
-| Tessa | Product Owner | Prioriteert, scoort, zegt nee |
-| Veerle | UX Designer | Tekent flows, denkt in gebruikers |
-| Anneke | Frontend Dev | Bouwt, test, klaagt over Safari |
+| Johanna | Product Owner | Prioriteert, scoort, zegt nee |
+| Brenda | UX Designer | Tekent flows, denkt in gebruikers |
+| Sophie | Frontend Dev | Bouwt, test, klaagt over Safari |
 | Vanya | Eindredacteur | Checkt Zweeds, corrigeert fouten |
 
 Het zijn markdown bestanden met een persoonlijkheid, frameworks, en output templates. Die heb ik niet zelf geschreven - ik heb Claude gevraagd om ze te maken. "Maak een Product Owner agent die goed is in prioriteren en impact/effort analyses kan doen." Claude schrijft dan het volledige bestand, inclusief werkwijze en voorbeelden.
 
-Als ik vervolgens zeg "vraag dit aan Tessa", laadt Claude dat bestand en *wordt* Tessa.
+Als ik vervolgens zeg "vraag dit aan Johanna", laadt Claude dat bestand en *wordt* Johanna.
 
 Klinkt gek, maar het werkt verrassend goed.
 
@@ -42,9 +42,9 @@ Klinkt gek, maar het werkt verrassend goed.
 Ik begon met een simpele vraag:
 > "Issue #40 - 'Alle categorieën' optie. Is die nog relevant? Wie van de agents kan dat beoordelen?"
 
-Claude stelde voor om Tessa erbij te halen. Logisch: dit is geen technische vraag, maar een productvraag.
+Claude stelde voor om Johanna erbij te halen. Logisch: dit is geen technische vraag, maar een productvraag.
 
-### Stap 2: Tessa aan het werk
+### Stap 2: Johanna aan het werk
 
 Ze analyseerde de feature met haar standaard framework:
 
@@ -70,7 +70,7 @@ Pijnlijk duidelijk waar het probleem zat.
 
 ### Stap 4: Opties scoren
 
-Tessa presenteerde vier mogelijke oplossingen, elk met een score:
+Johanna presenteerde vier mogelijke oplossingen, elk met een score:
 
 | Optie | Score |
 |-------|-------|
@@ -83,7 +83,7 @@ Ik koos A: hoogste score, laagste effort. Logische keuze.
 
 ### Stap 5: UX ontwerp
 
-Nu was Veerle aan de beurt. Ze schetste de nieuwe flow:
+Nu was Brenda aan de beurt. Ze schetste de nieuwe flow:
 
 ```text
 [Home] → Tap "Dagelijkse Oefening"
@@ -96,7 +96,7 @@ Mijn feedback was kort: "Geen modals toch?" Ze paste het direct aan en de "Bekij
 
 ### Stap 6: Bouwen
 
-Tot slot Anneke. Ze maakte een nieuwe `DailyView.js`, voegde de DAILY tab toe, implementeerde `startDailyFromBeginning()` en paste de HomeView aan.
+Tot slot Sophie. Ze maakte een nieuwe `DailyView.js`, voegde de DAILY tab toe, implementeerde `startDailyFromBeginning()` en paste de HomeView aan.
 
 Build geslaagd, tests groen. Klaar om te mergen.
 
@@ -110,7 +110,7 @@ Het voorkomt dat je direct in de code duikt. Eerst nadenken over het type proble
 
 **2. Scores zijn beter dan buikgevoel.**
 
-Tessa's Impact/Effort matrix is niet magisch, maar "score 7.0" is een stuk beter te verdedigen dan "voelt goed".
+Johanna's Impact/Effort matrix is niet magisch, maar "score 7.0" is een stuk beter te verdedigen dan "voelt goed".
 
 **3. Ik blijf de baas.**
 
@@ -146,4 +146,4 @@ Vier tips om te beginnen:
 
 ---
 
-*Geschreven tijdens een sessie met Claude Code en de agents Tessa, Veerle, Vanya en Anneke.*
+*Geschreven tijdens een sessie met Claude Code en de agents Johanna, Brenda, Vanya en Sophie.*
