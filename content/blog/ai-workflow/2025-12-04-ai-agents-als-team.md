@@ -52,7 +52,7 @@ Ze analyseerde de feature met haar standaard framework:
 IMPACT SCORE: 3/10 (Daily Program lost dit al op)
 EFFORT SCORE: 3/5
 PRIORITY SCORE: 2.0 → Backlog
-```text
+```
 
 Haar conclusie was helder: "Defer naar M4." Mijn rol? Gewoon "ok" zeggen. De onderbouwing was er al.
 
@@ -90,7 +90,7 @@ Nu was Veerle aan de beurt. Ze schetste de nieuwe flow:
          → [Daily Screen] met preview
          → Tap "Start"
          → [Practice]
-```text
+```
 
 Mijn feedback was kort: "Geen modals toch?" Ze paste het direct aan en de "Bekijk alle items" link verdween.
 

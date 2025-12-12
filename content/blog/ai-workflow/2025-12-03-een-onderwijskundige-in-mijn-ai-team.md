@@ -49,7 +49,7 @@ Ze heeft concrete frameworks. Bijvoorbeeld voor een Daily Program:
 3 zinnen - Herhaling (oudere items, SRS-schema)
 3 zinnen - Nieuw (op gebruikersniveau)
 2 items  - Grammatica-mini (werkwoord/voornaamwoord)
-```text
+```
 
 In plaats van 10 willekeurige zinnen.
 
