@@ -61,7 +61,7 @@ Tessa (mijn virtuele product owner) heeft een simpel rekensommetje:
 
 ```text
 Prioriteit = (Impact × 2) / Moeite
-```text
+```
 
 De slider-fix scoorde 10.0 - vijf minuten werk, direct zichtbaar resultaat. Dat deed ik eerst.
 
