@@ -34,7 +34,7 @@ Claude's oplossing was briljant in zijn eenvoud: een alert box. Ouderwets, maar 
 alert(`Opslaan voor ${date}:
 reading: ${data.reading}
 energyLevel: ${data.energyLevel}`);
-```
+```text
 
 De alert verscheen. De data was correct: `reading: true`, `energyLevel: 2`.
 
@@ -48,7 +48,7 @@ Ergens tussen "data verzamelen" en "data opslaan" verdween alles. Claude volgde 
 
 ```text
 saveData() -> saveDataForDate() -> sanitizeTrackerData() -> localStorage
-```
+```text
 
 En daar was het. `sanitizeTrackerData()`. Een functie die Claude een paar weken geleden had geschreven, aan het begin van dit project, om te voorkomen dat rommel in de database kwam. Een functie die alleen bekende velden doorliet.
 
@@ -67,7 +67,7 @@ function sanitizeTrackerData(data) {
 
     return sanitized;
 }
-```
+```text
 
 Claude's eigen beveiligingscode was de saboteur. De AI had een pattern geïntroduceerd en was het vervolgens zelf vergeten.
 
@@ -85,7 +85,7 @@ if (data.reading !== undefined) {
 if (data.energyLevel !== undefined) {
     sanitized.energyLevel = sanitizeNumber(data.energyLevel, 1, 5, null);
 }
-```
+```text
 
 En een grote waarschuwingscomment erboven:
 
@@ -95,7 +95,7 @@ En een grote waarschuwingscomment erboven:
  * Bij een nieuw form veld MOET je het hier ook toevoegen,
  * anders wordt de data stilzwijgend gefilterd.
  */
-```
+```text
 
 ---
 

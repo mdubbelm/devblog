@@ -38,7 +38,7 @@ Ik liet Claude een test script schrijven dat de app opstartte en checkte wat er 
 Period selector visible: true
 Period buttons found: 5
 Trend indicators found: 0
-```
+```text
 
 De periode selector werkte prima. De trend pijlen ontbraken omdat er geen vergelijkingsdata was - je kunt geen trend tonen als je geen vorige periode hebt om mee te vergelijken. Dat is geen bug, dat is logica.
 
@@ -52,7 +52,7 @@ weightStats.current !== null ? `${current} kg` : '-- kg'
 
 // Dit werkt voor beide null en undefined
 current !== null && current !== undefined ? `${current} kg` : '-- kg'
-```
+```text
 
 In JavaScript is `undefined !== null` true. Dat is een klassieke valkuil.
 

@@ -49,7 +49,7 @@ element.addEventListener('touchmove', (e) => {
     // Show indicator, trigger refresh
   }
 });
-```
+```text
 
 Simpel. Effectief. Native feel.
 
@@ -83,7 +83,7 @@ class WheelPicker {
     this.animateTo(index * this.itemHeight);
   }
 }
-```
+```text
 
 Het voelt **precies** zoals de native iOS picker. Smooth scroll, momentum, snap.
 
@@ -106,7 +106,7 @@ define: {
   __APP_VERSION__: JSON.stringify(pkg.version),
   __BUILD_DATE__: JSON.stringify(new Date().toISOString())
 }
-```
+```text
 
 Versie info automatisch bij elke build. Geen handmatig werk.
 
