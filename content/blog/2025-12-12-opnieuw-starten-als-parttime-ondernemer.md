@@ -1,9 +1,12 @@
 ---
-title: "Opnieuw starten als parttime ondernemer"
+title: Opnieuw starten als parttime ondernemer
 date: 2025-12-14T09:00:00+01:00
-draft: false
-tags: [ondernemen, reflectie, ai]
-description: "Het kriebelt om weer iets voor mezelf te doen. Maar wil ik die verplichtingen wel?"
+draft: true
+tags:
+  - ondernemen
+  - reflectie
+  - ai
+description: Het kriebelt om weer iets voor mezelf te doen. Maar wil ik die verplichtingen wel?
 ---
 
 Het kriebelt al een tijdje. Die gedachte dat ik naast mijn baan ook iets voor mezelf wil doen. Niet fulltime, geen grote plannen — gewoon een paar uur per week waarin ik mijn eigen ding kan doen.
