@@ -76,6 +76,32 @@ YYYY-MM-DD-korte-beschrijving.md
 
 Voorbeeld: `2025-12-06-ik-kan-nu-alles-maken.md`
 
+### ⚠️ Interne links naar andere posts
+
+**BELANGRIJK**: Hugo genereert URLs op basis van de **titel**, NIET de bestandsnaam.
+
+| Bestand | Titel | URL wordt |
+|---------|-------|-----------|
+| `2025-12-05-kennisbank-opbouwen.md` | "Een kennisbank opbouwen met AI" | `/een-kennisbank-opbouwen-met-ai/` |
+| `2025-12-06-ik-kan-nu-alles-maken.md` | "Ik kan nu alles maken" | `/ik-kan-nu-alles-maken/` |
+
+**Hoe links goed maken:**
+1. Open de post waarnaar je wilt linken
+2. Lees de **titel** uit de frontmatter
+3. Slugify de titel (kleine letters, spaties → streepjes)
+4. Gebruik dat als URL pad
+
+**Voorbeeld:**
+```markdown
+<!-- ❌ FOUT - bestandsnaam als URL -->
+[mijn vorige post](/blog/ai-workflow/2025-12-05-kennisbank-opbouwen-met-ai/)
+
+<!-- ✅ GOED - titel gesluggified -->
+[mijn vorige post](/blog/ai-workflow/een-kennisbank-opbouwen-met-ai/)
+```
+
+**Tip**: Test interne links altijd lokaal met `hugo server` voordat je pusht.
+
 ## Schrijfstijl van Monique
 
 **BELANGRIJK:** Dit is Monique's persoonlijke blog. Schrijf in HAAR stijl, niet in een generieke AI-stijl.

@@ -5,7 +5,7 @@ description: "Waar ik nu mee bezig ben"
 
 *This page is inspired by Derek Sivers' [now page](http://sivers.org/now) suggestion and his [Now Now Now](http://nownownow.com/) movement. The purpose of this page is to share my current focus. If you have your own site, [you should make one](https://nownownow.com/about), too.*
 
-Last updated on: December 5, 2025
+Last updated on: December 17, 2025
 
 ## Cultural
 

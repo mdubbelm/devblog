@@ -1,34 +1,32 @@
 {
-  "timestamp": "2025-12-09T19:30:00+01:00",
-  "summary": "Blogpost 'Jack of all trades' geschreven over generalist zijn in het AI-tijdperk. Planning aangepast naar om de dag publiceren.",
+  "timestamp": "2025-12-14T18:05:00Z",
+  "summary": "Purrse PWA splash animatie gefixt (CSS specificiteit + relatieve paden voor GitHub Pages). Pull-to-refresh issue aangemaakt. Devblog drafts gecontroleerd - 'ondernemer' post veilig op draft gezet en gepusht voordat scheduled deploy hem live kon zetten. 'Vrouwen achter AI agents' post staat scheduled voor 16 dec.",
   "filesModified": [
-    "content/blog/ai-workflow/2025-12-11-jack-of-all-trades/index.md - Nieuwe post over generalist zijn",
-    "content/blog/2025-12-12-opnieuw-starten-als-parttime-ondernemer.md - Datum verplaatst naar 14 dec",
-    "content/blog/ai-workflow/2025-12-13-de-vrouwen-achter-mijn-ai-agents.md - Datum verplaatst naar 16 dec"
-  ],
-  "completedTasks": [
-    "Blogpost 'Jack of all trades' geschreven met persoonlijke achtergrond",
-    "Drukkerij-ervaring als parallel voor AI-werk",
-    "Helsinki JavaScript-opleiding als voorbeeld van overschat worden",
-    "Concreet AI-voorbeeld toegevoegd (div vs h2)",
-    "Overheidswerk als vertaler-rol toegevoegd",
-    "Volledige uitdrukking met Nederlandse vertaling",
-    "Planning aangepast: om de dag ipv dagelijks",
-    "Alles gepusht naar GitHub"
+    "purrse/src/styles/main.css",
+    "purrse/index.html",
+    "purrse/public/manifest.json",
+    "purrse/public/sw.js",
+    "purrse/src/main.js",
+    "purrse/.session-status.json",
+    "devblog/content/blog/2025-12-12-opnieuw-starten-als-parttime-ondernemer.md"
   ],
   "nextSteps": [
-    "Habittracker project oppakken",
-    "Carottes grillées: #10 Responsief design (NOW prioriteit)",
-    "Carottes grillées: #19 Alt-teksten voor afbeeldingen"
+    "Test Purrse PWA animatie na herinstallatie",
+    "16 dec: 'De vrouwen achter mijn AI agents' gaat automatisch live",
+    "Reality check post afmaken (2025-12-15) indien gewenst",
+    "Werk aan Purrse backlog issues (#1-12)"
   ],
   "openIssues": [
-    "Habittracker - status onbekend, moet worden opgepakt"
+    "Purrse #12: Pull-to-refresh met animatie",
+    "Purrse #1-11: Eerder aangemaakte development issues",
+    "Devblog: Reality check post nog onaf (draft)",
+    "Devblog: Ondernemer post op draft - later afmaken?"
   ],
-  "publishSchedule": [
-    "10 dec: Carottes grillées is terug online",
-    "12 dec: Jack of all trades",
-    "14 dec: Opnieuw starten als parttime ondernemer",
-    "16 dec: De vrouwen achter mijn AI agents"
-  ],
-  "todoList": []
+  "scheduledPosts": {
+    "2025-12-16": "De vrouwen achter mijn AI agents (draft: false, scheduled)"
+  },
+  "draftPosts": [
+    "2025-12-15-reality-check,-even-een-pas-op-de-plaats.md (onaf)",
+    "2025-12-12-opnieuw-starten-als-parttime-ondernemer.md (bewust op draft)"
+  ]
 }

@@ -6,7 +6,7 @@ tags: [ai, workflow, documentatie, kennismanagement, iso]
 description: "Hoe ik ISO-normen en Architecture Decision Records toevoegde aan mijn kennissysteem, geïnspireerd door Martijn Aslander."
 ---
 
-Twee weken geleden schreef ik over [mijn kennisbank opbouwen](/blog/ai-workflow/2025-12-05-kennisbank-opbouwen-met-ai/). Vandaag maakte ik hem slimmer. De aanleiding? Een blogartikel van Martijn Aslander.
+Twee weken geleden schreef ik over [mijn kennisbank opbouwen](/blog/ai-workflow/een-kennisbank-opbouwen-met-ai/). Vandaag maakte ik hem slimmer. De aanleiding? Een blogartikel van Martijn Aslander.
 
 ---
 
