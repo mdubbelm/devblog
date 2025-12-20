@@ -1,8 +1,0 @@
-# Netlify config - redirect all traffic to GitHub Pages
-# Site is now hosted at blog.modub.nl
-
-[[redirects]]
-  from = "/*"
-  to = "https://blog.modub.nl/:splat"
-  status = 301
-  force = true
