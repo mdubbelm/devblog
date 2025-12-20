@@ -1,6 +1,0 @@
----
-draft: true
----
-
-Ik luister altijd met veel plezier naar de [podcast van Adriaan van Dis](https://www.adriaanvandis.nl/in-de-podcast-van-dis-ongefilterd-bespreekt-adriaan-van-dis-alles-wat-hem-bezighoudt/) . Het is altijd een goede realiteitscheck. En hoewel hij zich er weinig over uitspreekt, ging het afgelopen zaterdag even over kunstmatige intelligentie. Wie dit blog leest of mij recent heeft gesproken, heeft het al gemerkt: ik heb me nogal verloren in enthousiasme over programmeren met AI. In korte tijd bouwde ik diverse apps, zette ik oude WordPress websites live en genereerde ik blog posts over mijn bouwproces en ervaringen. 
-Maar iets knaagde er van binnen. Is dit allemaal wel echt nodig? Kan ik het voor mezelf verantwoorden? De mensen om mij heen zijn, net als ik tot afgelopen zomer, zeer terughoudend met het gebruik van AI. Maar het is bijzonder verslavend om te zien wat je allemaal in korte tijd voor elkaar krijgt door het geven van simpele tekstopdrachtjes, zonder al te veel kennis van programmeren.
