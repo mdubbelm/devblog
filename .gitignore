@@ -2,6 +2,7 @@
 public/
 resources/_gen/
 .hugo_build.lock
+hugo_stats.json
 
 # OS
 .DS_Store
@@ -16,3 +17,18 @@ Thumbs.db
 # Environment
 .env
 .env.local
+
+# Claude Code (lokaal houden)
+CLAUDE.md
+LEARNINGS.md
+.claude/
+.session-status.json
+
+# Logs
+logs/
+
+# Development screenshots
+screenshots/
+
+# Netlify (niet meer in gebruik)
+netlify.toml
