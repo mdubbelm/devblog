@@ -42,7 +42,7 @@ De "Local" optie geeft Claude toegang tot je bestanden. Maar dan moet je wel ins
 
 Mijn werkstructuur ziet er zo uit:
 
-```
+```text
 /Users/monique/Projecten/
 ├── CLAUDE.md           ← overkoepelende context
 ├── _agents/            ← mijn team van AI agents
