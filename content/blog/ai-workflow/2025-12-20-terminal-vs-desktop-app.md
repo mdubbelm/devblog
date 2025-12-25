@@ -1,116 +1,122 @@
 ---
 title: Claude Code in de terminal of in de desktop app?
 date: 2025-12-20T14:00:00+01:00
+lastmod: 2025-12-25T12:00:00+01:00
 draft: false
 tags:
   - ai
   - workflow
   - claude-code
   - tools
-description: Wat ik leerde over de verschillen tussen Claude Code in de terminal en de Claude Desktop app, en wanneer je welke gebruikt.
+description: De verschillen tussen Claude Code in de terminal en de Desktop app zijn kleiner dan ik dacht. Het is vooral voorkeur.
 ---
 
 Op de [Digitale Fitheid meetup](https://start.digitalefitheid.nl/c/agenda/meet-greet-learn-43) deze week vroeg iemand waarom ze de Desktop app van Claude niet kon gebruiken voor haar projecten. Goede vraag. Ik gebruik zelf vooral de terminal, maar waarom eigenlijk?
 
-Tijd om uit te zoeken wat de verschillen zijn.
+Tijd om uit te zoeken wat de verschillen zijn. Spoiler: ze zijn kleiner dan ik dacht.
 
 ---
 
 ## Eerst even context
 
-Claude Code zit pas sinds eind november 2025 in de Desktop app. Daarvoor was het alleen beschikbaar als CLI-tool in de terminal. De integratie maakt het mogelijk om te coderen, debuggen en projecten te managen vanuit de Desktop app — inclusief git en andere CLI-tools.
+Claude Code zit pas sinds eind november 2025 in de Desktop app. Daarvoor was het alleen beschikbaar in de terminal. Nu kun je in beide omgevingen coderen, debuggen en projecten managen — inclusief git en andere tools.
 
-Ik werk al een tijdje met Claude Code in de terminal. Vanuit mijn overkoepelende Projecten-folder, waar mijn CLAUDE.md en al mijn agents staan. Werkt prima. Maar de Desktop app heeft iets wat de terminal niet heeft: je kunt er screenshots in slepen.
-
----
-
-## De opties in de Desktop app
-
-Wanneer je de Claude Desktop app opent, krijg je een environment selector:
-
-| Optie | Betekenis |
-|-------|-----------|
-| **Local** | Claude heeft toegang tot je bestanden en kan tools gebruiken |
-| **Default** | Alleen chat, geen toegang tot je systeem |
-| **Add environment** | Remote omgeving toevoegen (SSH naar server) |
-
-De "Local" optie geeft Claude toegang tot je bestanden. Maar dan moet je wel instellen welke folders, via Settings → Developer.
+Ik werk al een tijdje met Claude Code in de terminal. Vanuit mijn overkoepelende Projecten-folder, waar mijn CLAUDE.md en al mijn agents staan. Werkt prima.
 
 ---
 
-## Mijn setup
+## Wat ik dacht dat de verschillen waren
 
-Mijn werkstructuur ziet er zo uit:
+Toen ik dit artikel oorspronkelijk schreef (20 december), had ik een hele vergelijkingstabel gemaakt. Screenshots? Alleen in Desktop. Automatische context laden? Alleen in terminal. Worktrees? Alleen in Desktop.
 
-```text
-/Users/monique/Projecten/
-├── CLAUDE.md           ← overkoepelende context
-├── _agents/            ← mijn team van AI agents
-├── devblog/            ← dit blog
-├── zweedsapp/          ← PWA project
-└── ...
-```
-
-In de terminal start ik Claude vanuit `/Projecten`. De CLAUDE.md wordt automatisch geladen. Klaar.
-
-In de Desktop app moet je die working directory handmatig instellen. Dat kan, maar het is een extra stap.
+Maargoed, ik had het niet helemaal bij het rechte eind.
 
 ---
 
-## Wanneer welke tool?
+## Wat de verschillen écht zijn
 
-Na wat experimenteren kwam ik tot deze verdeling:
+**Update 25 dec:** Frank Meeuwsen wees me op een paar dingen die ik gemist had. Laat me de boel rechtzetten.
 
-| Feature              | Desktop app       | Terminal (CLI)             |
-| -------------------- | ----------------- | -------------------------- |
-| Screenshots uploaden | ✅ Drag & drop     | ❌ Niet direct              |
-| Visuele feedback     | ✅ Mooie UI        | Tekst-based                |
-| File access          | Via settings      | ✅ Direct                   |
-| Working directory    | Moet je instellen | Waar je op dat moment bent |
-| CLAUDE.md auto-load  | Handmatig         | ✅ Automatisch              |
-| Snelheid             | Trager            | ✅ Sneller                  |
+### Screenshots
 
-Dat laatste punt verdient uitleg. De terminal voelt merkbaar sneller. Tekst verschijnt direct, zonder de rendering overhead van een Electron app. Bij langere sessies of veel file operations merk je dat verschil. Ook kun je makkelijk verschillende vensters naast elkaar openen om tegelijk aan verschillende dingen te werken.
+Ik schreef dat je in de terminal geen screenshots kon gebruiken. Dat klopt niet. Je kunt wel degelijk een afbeelding toevoegen — alleen anders dan in de Desktop app.
 
-Maar: de Desktop app is wel laagdrempeliger voor starters. Geen terminal openen, geen `cd` naar de juiste folder, geen commands onthouden. Gewoon de app openen en typen. Als je nog niet gewend bent aan de command line, is dat een stuk minder intimiderend.
+- **Desktop app**: screenshot maken naar clipboard (⇧⌃⌘4 op Mac, ⇧Win+S op Windows), dan direct droppen
+- **Terminal**: screenshot opslaan als bestand, dan het bestandspad plakken
 
-### Worktrees: meerdere taken tegelijk
+Iets meer stappen in de terminal, maar het werkt.
 
-De Desktop app heeft ook een handige feature: **worktrees**. In gewone mensentaal: je kunt meerdere Claude-sessies tegelijk draaien, elk bezig met een andere taak in hetzelfde project.
+### CLAUDE.md laden
 
-Stel je voor: één Claude fixt een bug, terwijl een andere Claude documentatie schrijft. Zonder dat ze elkaar in de weg zitten. Elke sessie werkt in een eigen "kopie" van je project (technisch: een git worktree), maar ze delen wel dezelfde onderliggende code.
+Een CLAUDE.md is een bestand waarin je context voor Claude kunt zetten: projectinformatie, werkafspraken, stijlregels, dat soort dingen. Claude leest dit automatisch en houdt er rekening mee. Scheelt een hoop herhalen.
 
-Voor beginners is dit fijn omdat je niet hoeft te weten hoe git branches werken. De Desktop app regelt het voor je. Je klikt gewoon op "nieuwe sessie" en gaat aan de slag.
+In de terminal wordt je CLAUDE.md automatisch geladen vanuit de map waar je staat. Ik dacht dat dit in de Desktop app niet kon. Maar als je de working directory goed instelt (Settings → Developer), werkt het daar ook.
+
+### Meerdere taken tegelijk
+
+Soms wil je Claude aan twee dingen tegelijk laten werken. Bijvoorbeeld: één sessie schrijft documentatie terwijl een andere een bug fixt. Zonder dat ze elkaars werk in de war schoppen.
+
+Dat kan in beide. In de Desktop app klik je op "nieuwe sessie". In de terminal start je gewoon een tweede terminal-venster. Claude regelt zelf dat de sessies gescheiden blijven.
+
+### Memory
+
+Claude heeft tegenwoordig ook een memory feature — je projectcontext wordt onthouden tussen sessies. Werkt in de Desktop app, op het web, en op mobiel. Dus ook geen verschil meer.
 
 ---
 
-## Mijn conclusie
+## Wat wél anders is
 
-De terminal blijft mijn primaire tool voor projectwerk. De CLAUDE.md wordt automatisch geladen, ik kan makkelijk wisselen tussen projecten met `cd`, en alles werkt gewoon.
+Eerlijk? Niet zo veel meer. Dit zijn de echte verschillen:
 
-De Desktop app gebruik ik voor:
-- Screenshots analyseren
-- UI/design feedback vragen
-- Visuele vragen waar ik iets wil laten *zien*
-- Snelle vragen waar ik geen file access nodig heb
+### Snelheid
 
-Het zijn twee tools met elk hun eigen sterke punten. Geen van beide is "beter", ze vullen elkaar aan.
+De terminal is sneller. Tekst verschijnt direct, zonder de overhead van een desktop applicatie. Maar — en dit is belangrijk — dat merk je alleen als je gewend bent aan de terminal. Als je nog nooit met de command line hebt gewerkt, maakt die snelheid niks uit. Dan ben je vooral bezig met "hoe open ik dit" en "welk commando moet ik typen".
 
-Heb je geen ervaring met de terminal en command line? Dan is de Desktop app een prima startpunt. Je kunt direct aan de slag zonder eerst commands te leren. En als je later meer wilt, kun je altijd nog overstappen naar de terminal.
+### Permissions
+
+Frank merkte op dat het toestemmingensysteem in de Desktop app vervelend kan zijn. Bij elke actie moet je "allow" klikken, en je kunt vaak alleen "allow once" kiezen — niet "always allow". "Best irritant als je veel research doet".
+
+In de terminal kun je een allowlist instellen via settings. Dan hoef je niet steeds op knoppen te klikken. Bijvoorbeeld: `Bash(git commit:*)` toestaan, dan vraagt Claude niet meer om toestemming voor git commits. Fijner. Ook krijg je in de terminal bij opdrachten vaak de keuze: "allow once" of "always allow for (specifiek commando)"
+### Meerdere projecten
+
+In de terminal wissel ik makkelijk tussen projecten met `cd`. In de Desktop app moet je de working directory aanpassen via settings. Kan, maar is een extra stap.
+
+---
+
+## Dus: welke moet je kiezen?
+
+Eerlijk? Het maakt niet zo veel uit meer.
+
+**Kies de Desktop app als:**
+- Je niet gewend bent aan de terminal
+- Je vooral met screenshots en visuele dingen werkt
+- Je het fijn vindt om te klikken in plaats van typen
+
+**Kies de terminal als:**
+- Je al met de command line werkt
+- Je veel tussen projecten wisselt
+- Je controle wilt over permissions (allowlist)
+- Je die extra snelheid waardeert
+
+Ik blijf zelf bij de terminal. Niet omdat die "beter" is, maar omdat ik er al in werk. Als ik geen terminal-ervaring had, zou ik waarschijnlijk met de Desktop app beginnen.
 
 ---
 
 ## Wat ik hiervan leerde
 
-**1. De terminal wint voor projectwerk.**
+**1. Test je aannames.**
 
-Als je een overkoepelende CLAUDE.md hebt met agents en context, is de terminal gewoon handiger. Automatische context loading is een groot voordeel.
+Ik had een heel verhaal over verschillen die er niet bleken te zijn. Pas toen Frank reageerde, ging ik het opnieuw checken.
 
-**2. Screenshots zijn een killer feature.**
+**2. De tools groeien naar elkaar toe.**
 
-Soms wil je gewoon iets laten zien. Een error in de browser, een design dat niet klopt, een UI die je wilt bespreken. Dan is drag & drop in de Desktop app onverslaanbaar.
+Een tijdje geleden waren de verschillen groter. Nu hebben beide dezelfde features, alleen net anders verpakt.
+
+**3. Het gaat om voorkeur, niet om "beter".**
+
+Er is geen winnaar. Kies wat past bij hoe jij werkt.
 
 ---
 
-*De beste tool is de tool die past bij wat je op dat moment doet.*
+*Dank aan [Frank Meeuwsen](https://blog.frankmeeuwsen.com/) voor de correcties.*
 
