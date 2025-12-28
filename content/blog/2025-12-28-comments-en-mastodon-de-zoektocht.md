@@ -1,7 +1,7 @@
 +++
 date = '2025-12-28T17:00:00+01:00'
 draft = false
-title = 'Comments en Mastodon: de zoektocht naar een simpele workflow'
+title = 'Comments en Mastodon: op zoek naar een simpele workflow'
 description = 'Hoe ik onderzocht hoe andere bloggers Mastodon integreren, en waarom ik voor de simpelste oplossing koos'
 tags = ['mastodon', 'indieweb', 'hugo', 'workflow']
 
