@@ -92,10 +92,10 @@ Terwijl ik bezig was heb ik ook microformats toegevoegd aan mijn templates. Niet
 
 ## Wat ik leerde
 
-**Begin simpel.** Ik had uren kunnen besteden aan een volledig geautomatiseerde Fediverse-integratie. In plaats daarvan werkt het nu, met minimale technische schuld.
+**Begin simpel.** Ik had uren kunnen besteden aan een volledig geautomatiseerde Fediverse-integratie. Nu werkt het gewoon, zonder poespas.
 
 **Kijk hoe anderen het doen.** Die drie blogs bekijken gaf me snel een beeld van de opties. Veel sneller dan documentatie spitten.
 
-**Vraag je af wat je écht wilt.** Ik dacht dat ik wilde dat mijn blog een Fediverse-actor zou worden. Wat ik eigenlijk wilde: posts op mijn bestaande Mastodon, comments zichtbaar op mijn blog. Dat is veel simpeler.
+**Zoek de oplossing bij het probleem.** Ik wilde posts op Mastodon en comments op mijn blog. Niet meer, niet minder. Dan hoef je ook niet meer te bouwen dan dat.
 
 *Soms is de saaie oplossing de beste.*
