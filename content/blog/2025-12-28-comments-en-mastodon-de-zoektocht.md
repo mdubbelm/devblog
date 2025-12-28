@@ -1,17 +1,15 @@
-+++
-date = '2025-12-28T17:00:00+01:00'
-draft = false
-title = 'Comments en Mastodon: op zoek naar een simpele workflow'
-description = 'Hoe ik onderzocht hoe andere bloggers Mastodon integreren, en waarom ik voor de simpelste oplossing koos'
-tags = ['mastodon', 'indieweb', 'hugo', 'workflow']
-
+---
+title: "Comments en Mastodon: op zoek naar een simpele workflow"
+date: 2025-12-28T17:00:00+01:00
+draft: false
+description: "Hoe ik onderzocht hoe andere bloggers Mastodon integreren, en waarom ik voor de simpelste oplossing koos"
+tags: [mastodon, indieweb, hugo, workflow]
 # Mastodon comments - vul de toot ID in na publicatie
-# (het getal aan het eind van de URL, bijv. 113737583901234567)
-[mastodon]
-host = 'mastodon.social'
-username = 'Mdubbelm'
-id = ''
-+++
+mastodon:
+  host: mastodon.social
+  username: Mdubbelm
+  id: ""
+---
 
 Ik wilde twee dingen: mijn blogposts automatisch op Mastodon krijgen, en reacties vanuit Mastodon onder mijn posts tonen. Klinkt simpel toch? Nou, dat viel tegen.
 
