@@ -1,6 +1,6 @@
 {{- with .Params.mastodon }}
-<section class="mastodon-comments" id="comments">
-  <h2>Reacties</h2>
+<section class="mastodon-comments" id="comments" aria-labelledby="comments-heading">
+  <h2 id="comments-heading">Reacties</h2>
   <p class="mastodon-comments-intro">
     Reageer op dit artikel via Mastodon!
     <a href="https://{{ .host }}/@{{ .username }}/{{ .id }}" target="_blank" rel="noopener noreferrer">
@@ -12,11 +12,16 @@
   <button
     id="load-mastodon-comments"
     data-host="{{ .host }}"
-    data-post-id="{{ .id }}">
+    data-post-id="{{ .id }}"
+    aria-label="Laad reacties van Mastodon"
+    aria-controls="mastodon-comments-wrapper">
     Reacties laden
   </button>
 
-  <div id="mastodon-comments-wrapper">
+  <!-- Live region for screen reader announcements -->
+  <div id="mastodon-comments-status" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <div id="mastodon-comments-wrapper" role="feed" aria-label="Reacties van Mastodon">
     <noscript>
       <p>JavaScript is vereist om reacties te laden.
         <a href="https://{{ .host }}/@{{ .username }}/{{ .id }}" target="_blank" rel="noopener noreferrer">
@@ -28,5 +33,6 @@
 </section>
 
 <link rel="stylesheet" href="/css/mastodon-comments.css">
+<script src="/js/purify.min.js" defer></script>
 <script src="/js/mastodon-comments.js" defer></script>
 {{- end }}
