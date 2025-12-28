@@ -1,0 +1,23 @@
+{{- with site.Params.homeInfoParams }}
+{{- /* h-card microformats for Brid.gy Fed / IndieWeb */ -}}
+<article class="first-entry home-info h-card">
+    <header class="entry-header">
+        <h1 class="p-name">{{ .Title | markdownify }}</h1>
+    </header>
+    <div class="entry-content p-note">
+        {{ .Content | markdownify }}
+    </div>
+    {{- /* Hidden h-card data for Brid.gy Fed */ -}}
+    <data class="u-url u-uid" value="{{ site.BaseURL }}" hidden></data>
+    {{- with site.Params.author }}
+    <data class="p-name" value="{{ . }}" hidden></data>
+    {{- end }}
+    {{- /* Profile photo for Fediverse */ -}}
+    <img class="u-photo" src="{{ "images/monique-IIAS12-genua.jpg" | absURL }}" alt="Monique Dubbelman" hidden>
+    {{- /* Link to Mastodon profile for verification */ -}}
+    <a rel="me" href="https://mastodon.social/@Mdubbelm" hidden></a>
+    <footer class="entry-footer">
+        {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
+    </footer>
+</article>
+{{- end -}}
