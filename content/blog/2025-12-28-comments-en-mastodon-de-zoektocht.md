@@ -44,7 +44,7 @@ Even serieus overwogen: overstappen naar Micro.blog. €5/maand, native Fedivers
 - Minder controle over de techniek
 - Vendor lock-in
 
-Ik vroeg mijn AI-agents om mee te denken (ja, ik heb een heel team, maar dat is een ander verhaal). Johanna, mijn virtuele Product Owner, was duidelijk: "80% van de voordelen met 0% lock-in? Blijf bij Hugo."
+Ik vroeg mijn [AI-agents](/blog/ai-workflow/2025-12-04-ai-agents-als-team/) om mee te denken. Johanna, mijn virtuele Product Owner, was duidelijk: "80% van de voordelen met 0% lock-in? Blijf bij Hugo."
 
 ### Brid.gy Fed: cool maar overkill
 
