@@ -11,7 +11,9 @@ mastodon:
   id: ""
 ---
 
-Ik wilde twee dingen: mijn blogposts automatisch op Mastodon krijgen, en reacties vanuit Mastodon onder mijn posts tonen. Klinkt simpel toch? Nou, dat viel tegen.
+Tot voor kort draaide deze site op WordPress. Daar zijn comments gewoon geregeld: mensen reageren, jij modereert, klaar. Wat WordPress niet goed doet is automatisch doorplaatsen naar social media — daar heb je plugins voor nodig die vaak matig werken of geld kosten.
+
+Nu zit ik op Hugo, een statische site generator. Sneller, goedkoper te hosten, maar geen ingebouwde comments. Dus wilde ik twee dingen: mijn blogposts automatisch op Mastodon krijgen, en reacties vanuit Mastodon onder mijn posts tonen. Klinkt simpel toch? Nou, dat viel tegen.
 
 ## Eerst maar eens kijken hoe anderen het doen
 
