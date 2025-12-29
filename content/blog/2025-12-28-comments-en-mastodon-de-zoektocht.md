@@ -8,7 +8,7 @@ tags: [mastodon, indieweb, hugo, workflow]
 mastodon:
   host: mastodon.social
   username: Mdubbelm
-  id: ""
+  id: "115801955456959113"
 ---
 
 Tot voor kort draaide deze site op WordPress. Daar zijn comments gewoon geregeld: mensen reageren, jij modereert, klaar. Wat WordPress niet goed doet is automatisch doorplaatsen naar social media — daar heb je plugins voor nodig die vaak matig werken of geld kosten.
