@@ -8,7 +8,7 @@ tags: [plex, navidrome, muziek, raspberry-pi, open-source]
 mastodon:
   host: mastodon.social
   username: Mdubbelm
-  id: ""
+  id: "115810284749897544"
 ---
 
 Twee dagen geleden las ik [Frank Meeuwsen's post over zijn eigen muziekserver](https://blog.frankmeeuwsen.com/2025/12/28/mijn-eigen-streaming-muziekserver.html). Een uurtje later had ik Plex draaien.
@@ -33,7 +33,7 @@ Het mooiste: met Claude Code heb ik zelfs muziek teruggehaald uit oude, kapotte 
 
 (Ja, ik werd een beetje emotioneel van een playlist uit 2009.)
 
-## In de auto naar mijn eigen muziek
+## In de auto naar mijn eigen muziek luisteren
 
 Wat ik niet had verwacht: via de Plexamp-app kan ik in de auto naar muziek luisteren die op mijn laptop thuis staat. Gewoon streamen over 4G. Mijn eigen muziek, mijn eigen server, zonder dat een techbedrijf meekijkt.
 
