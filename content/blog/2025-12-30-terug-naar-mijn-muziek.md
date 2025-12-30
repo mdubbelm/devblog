@@ -1,5 +1,6 @@
 ---
 title: "Terug naar mijn muziek (via een omweg)"
+slug: "terug-naar-mijn-muziek"
 date: 2025-12-30T20:00:00+01:00
 draft: false
 description: "Hoe ik dankzij Plex mijn oude muziekcollectie herontdekte, verdwenen playlists terugvond, en nu wacht op een USB-hub"
