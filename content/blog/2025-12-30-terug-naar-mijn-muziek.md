@@ -13,7 +13,7 @@ mastodon:
 
 Twee dagen geleden las ik [Frank Meeuwsen's post over zijn eigen muziekserver](https://blog.frankmeeuwsen.com/2025/12/28/mijn-eigen-streaming-muziekserver.html). Een uurtje later had ik Plex draaien.
 
-> Ik hou van serendipiteit! [...] Ik luister al de hele middag naar langvervlogen muziekjes en Claude Code heeft zelfs verloren mappen met platen en oude iTunes playlists geëxporteerd en weer tot leven gewekt. Ik kraai nog net niet van plezier.
+> De kerstvakantie is lang niet zo leuk geweest als deze! Ik luister al de hele middag naar langvervlogen muziekjes en Claude Code heeft zelfs verloren mappen met platen en oude iTunes playlists geëxporteerd en weer tot leven gewekt. Ik kraai nog net niet van plezier.
 >
 > — [mijn reactie op Mastodon](https://mastodon.social/@Mdubbelm/115805043306348602)
 
