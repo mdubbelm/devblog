@@ -9,9 +9,13 @@ tags:
   - digitale-fitheid
   - wordpress
   - meetups
+mastodon:
+  host: mastodon.social
+  username: Mdubbelm
+  id: "115829917249865319"
 ---
 
-Ik had het eerlijk gezegd een beetje opgegeven, dat community-gevoel. Maar toen ging ik begin vorig jaar voor het eerst naar een [Digitale Fitheid meetup](https://start.digitalefitheid.nl/home) in Utrecht. En jeuj, daar was het weer!
+Ik had het eerlijk gezegd een beetje opgegeven, dat community-gevoel. Maar toen ging ik ongeveer een jaar geleden voor het eerst naar een [Digitale Fitheid meetup](https://start.digitalefitheid.nl/home) in Utrecht. En jeuj, daar was het weer!
 
 Dat klinkt misschien overdreven. Is het niet.
 
