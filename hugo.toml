@@ -14,7 +14,7 @@ theme = 'PaperMod'
 # Site Parameters
 # =============================================================================
 [params]
-  description = "Web professional, information architect & code enthusiast"
+  description = "Ex-WordPressionista, nu vibe coden voor persoonlijk gebruik"
   author = "Monique Dubbelman"
   showReadingTime = true
   showShareButtons = false

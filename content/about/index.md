@@ -1,6 +1,6 @@
 ---
 title: "Over mij"
-description: "Monique Dubbelman - Web professional, information architect & code enthusiast"
+description: "Monique Dubbelman - Ex-WordPressionista, nu vibe coden voor persoonlijk gebruik"
 cover:
   image: "/images/monique-IIAS12-genua.jpg"
   alt: "Monique Dubbelman"
@@ -15,7 +15,7 @@ Na 25+ jaar als UX designer weet ik hoe digitale producten moeten werken. Maar z
 
 Tot ik het gewoon ging proberen.
 
-Ik ben een web professional met een passie voor informatie-architectuur, WordPress en leren coderen. Op deze site deel ik mijn projecten, experimenten en gedachten.
+Ex-WordPressionista, nu aan het vibe coden voor persoonlijk gebruik. Hier deel ik projecten, experimenten en soms gewoon wat er in m'n hoofd zit.
 
 ## Contact
 
@@ -31,6 +31,7 @@ I abandoned most socials, but you can still find me on:
 
 - [Mastodon](https://mastodon.social/@Mdubbelm)
 - [GitHub](https://github.com/mdubbelm)
+- [ListenBrainz](https://listenbrainz.org/user/modub/)
 
 You can find more information about me on:
 
