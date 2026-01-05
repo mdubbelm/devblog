@@ -27,8 +27,8 @@ theme = 'PaperMod'
   # Homepage - persoonlijke intro
   [params.homeInfoParams]
     Title = "Hallo, ik ben Monique"
-    Content = """Web professional met een passie voor informatie-architectuur, WordPress en leren coderen. \
-Hier deel ik mijn projecten, experimenten en gedachten."""
+    Content = """Ex-WordPressionista, nu aan het vibe coden voor persoonlijk gebruik. \
+Hier deel ik projecten, experimenten en soms gewoon wat er in m'n hoofd zit."""
 
   [[params.socialIcons]]
     name = "github"
