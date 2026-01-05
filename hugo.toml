@@ -38,6 +38,10 @@ Hier deel ik mijn projecten, experimenten en gedachten."""
     name = "mastodon"
     url = "https://mastodon.social/@Mdubbelm"
 
+  [[params.socialIcons]]
+    name = "listenbrainz"
+    url = "https://listenbrainz.org/user/modub/"
+
 # =============================================================================
 # Navigatie Menu
 # =============================================================================
