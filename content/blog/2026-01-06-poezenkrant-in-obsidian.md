@@ -4,6 +4,10 @@ date: 2026-01-06
 draft: false
 description: "Na 50 jaar is De Poezenkrant gestopt. Hoe houd je bij welke nummers je hebt? Met Claude Code en Obsidian maakte ik een doorzoekbare collectie met covers."
 tags: ["ai", "obsidian", "claude-code", "collectie"]
+cover:
+  image: /images/blog/2026/screenshot-owned.png
+  alt: "Obsidian card view met Poezenkrant covers"
+  hidden: true  # verbergt cover in post zelf, toont alleen als social image
 # Mastodon comments - vul de toot ID in na publicatie
 mastodon:
   host: mastodon.social
