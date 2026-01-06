@@ -1,5 +1,6 @@
 ---
 title: "Mijn Poezenkrant-collectie bijhouden met Claude Code en Obsidian"
+slug: poezenkrant-in-obsidian
 date: 2026-01-06
 draft: false
 description: "Na 50 jaar is De Poezenkrant gestopt. Hoe houd je bij welke nummers je hebt? Met Claude Code en Obsidian maakte ik een doorzoekbare collectie met covers."
@@ -87,5 +88,5 @@ Dat gele briefje met kruisjes lag altijd thuis. Dus: Claude Code + Obsidian = do
 
 20 van de 70 in bezit, nog 50 te gaan.
 
-https://modub.nl/blog/mijn-poezenkrant-collectie-bijhouden-met-claude-code-en-obsidian/ #obsidian #claudecode #collectie
+https://modub.nl/blog/poezenkrant-in-obsidian/ #obsidian #claudecode #collectie
 -->
