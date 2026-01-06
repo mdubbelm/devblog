@@ -87,5 +87,5 @@ Dat gele briefje met kruisjes lag altijd thuis. Dus: Claude Code + Obsidian = do
 
 20 van de 70 in bezit, nog 50 te gaan.
 
-https://modub.nl/blog/2026-01-06-poezenkrant-in-obsidian/ #obsidian #claudecode #collectie
+https://modub.nl/blog/mijn-poezenkrant-collectie-bijhouden-met-claude-code-en-obsidian/ #obsidian #claudecode #collectie
 -->
