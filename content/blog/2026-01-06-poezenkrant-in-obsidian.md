@@ -13,7 +13,7 @@ cover:
 mastodon:
   host: mastodon.social
   username: Mdubbelm
-  id: ""
+  id: "115848549519561088"
 ---
 Laatst stonden we in het Stadsarchief in Amsterdam. Ze verkopen daar ook Poezenkranten, en wij stonden daar een beetje suffig te kijken naar de stapel. Welke hadden we nou eigenlijk al? Mijn vriend had ooit op een geeltje alle bestaande nummers opgeschreven met kruisjes bij de nummers die we al hebben. Maar ja, dat briefje lag thuis.
 
