@@ -22,7 +22,7 @@ Het ging trouwens nauwelijks over poezen. Het was meer een speeltuin voor typogr
 
 We hebben er heel wat, maar lang niet alles. En dus dat geeltje.
 
-![Geel post-it briefje met een grid van nummers 1-70, sommige doorgekruist om aan te geven welke Poezenkranten we hebben](geel-briefje-poezenkrant.jpg)
+![Geel post-it briefje met een grid van nummers 1-70, sommige doorgekruist om aan te geven welke Poezenkranten we hebben](/images/blog/2026/geel-briefje-poezenkrant.jpg)
 
 ## Claude Code erbij
 
@@ -42,9 +42,9 @@ Dus ik startte Claude Code op en vroeg of-ie de website van De Poezenkrant wilde
 
 In Obsidian gebruik ik Bases om er een mooie card view van te maken. Twee views: "Owned" en "Not owned". De covers worden als kaartjes getoond, dus je ziet in één oogopslag wat je hebt en wat je mist.
 
-![Obsidian card view met 20 Poezenkrant covers die we in bezit hebben, getoond als visuele kaartjes](screenshot-owned.png)
+![Obsidian card view met 20 Poezenkrant covers die we in bezit hebben, getoond als visuele kaartjes](/images/blog/2026/screenshot-owned.png)
 
-![Obsidian card view met 50 Poezenkrant covers die we nog missen, kleinere kaartjes in een grid](screenshot-not-owned.png)
+![Obsidian card view met 50 Poezenkrant covers die we nog missen, kleinere kaartjes in een grid](/images/blog/2026/screenshot-not-owned.png)
 
 En het mooie is: als we weer eens bij het Stadsarchief staan (of op een rommelmarkt, of waar dan ook), pak ik gewoon m'n telefoon erbij. Obsidian openen, even scrollen door de "Not owned" view, en ik weet precies wat we nog zoeken.
 
@@ -58,7 +58,7 @@ De vroege nummers uit de jaren 70 zijn het lastigst te vinden. Die kostten desti
 
 Het systeem is simpel. Elk nummer heeft een eigen pagina met properties en de cover. Klik je erop, dan zie je meteen of je 'm hebt of niet.
 
-![Obsidian editiepagina van Poezenkrant nummer 67, met properties bovenaan en daaronder de cover met headlines als 'Welke kat lijkt er op Steve Buscemi?'](editiepagina_poezenkrant_67.jpeg)
+![Obsidian editiepagina van Poezenkrant nummer 67, met properties bovenaan en daaronder de cover met headlines als 'Welke kat lijkt er op Steve Buscemi?'](/images/blog/2026/editiepagina_poezenkrant_67.jpeg)
 
 Onder de motorkap is het gewoon een markdown-bestand met wat YAML frontmatter:
 
@@ -73,3 +73,15 @@ cover: https://www.poezenkrant.com/wp-content/uploads/...
 Als we een nummer scoren, open ik het bestand en verander ik `in_bezit: false` naar `in_bezit: true`. De views in Bases updaten automatisch.
 
 Volgende keer als we in een archief of op een markt staan, hoef ik alleen m'n telefoon te pakken. Dat gele briefje mag met pensioen.
+
+<!--
+MASTODON POST (handmatig plaatsen, dan toot-ID invullen in frontmatter):
+
+De Poezenkrant is na 50 jaar gestopt. Wij verzamelen 'm, maar welke nummers hebben we eigenlijk?
+
+Dat gele briefje met kruisjes lag altijd thuis. Dus: Claude Code + Obsidian = doorzoekbare collectie met covers.
+
+20 van de 70 in bezit, nog 50 te gaan.
+
+https://modub.nl/blog/2026-01-06-poezenkrant-in-obsidian/ #obsidian #claudecode #collectie
+-->
