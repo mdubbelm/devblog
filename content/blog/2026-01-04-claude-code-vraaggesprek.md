@@ -12,7 +12,7 @@ tags:
 mastodon:
   host: mastodon.social
   username: Mdubbelm
-  id: ""
+  id: "115841948352105182"
 ---
 
 "Ik overzie het niet."
@@ -85,8 +85,7 @@ Bijna vergeten – dit kwam eruit over mijn setup:
 
 En een TODO-lijstje dat ik daadwerkelijk ga gebruiken. Omdat ik elk punt zelf heb doorgenomen, in plaats van het van een wall of text te moeten schrapen.
 
-*Soms is de beste manier om iets te begrijpen niet door te lezen, maar door vragen te beantwoorden.*
-
+---
 [^1]: De agents in mijn Claude Code setup zijn [vernoemd naar vrouwen in tech](/blog/ai-workflow/de-vrouwen-achter-mijn-ai-agents/): Limor naar [Limor Fried](https://en.wikipedia.org/wiki/Limor_Fried) (oprichter Adafruit), Grace naar [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper) (computerpionier, uitvinder van de compiler).
 
 <!--
