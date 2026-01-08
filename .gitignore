@@ -21,6 +21,7 @@ Thumbs.db
 # Claude Code (lokaal houden)
 CLAUDE.md
 LEARNINGS.md
+SESSION.md
 .claude/
 .session-status.json
 
