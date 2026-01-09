@@ -14,7 +14,7 @@ tags:
 mastodon:
   host: mastodon.social
   username: Mdubbelm
-  id: ""
+  id: "115867159854596149"
 ---
 
 Ik wist dat er duplicaten in mijn fotobibliotheek zaten. Heel veel duplicaten. Jaren van "even snel kopiëren" naar verschillende mappen, backups van backups, exports uit Apple Photos. Je kent het wel.
