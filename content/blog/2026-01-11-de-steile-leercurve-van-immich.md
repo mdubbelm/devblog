@@ -15,7 +15,7 @@ cover:
 mastodon:
   host: mastodon.social
   username: Mdubbelm
-  id: ""
+  id: "115877880148939339"
 ---
 
 Ik heb nu een paar weken een Raspberry Pi draaien met Immich erop. 50.000+ foto's. Een externe schijf eraan. Alles netjes geïndexeerd met gezichtsherkenning en een kaart waar je op kunt klikken, en eerlijk gezegd is het best gaaf om te zien hoe dat allemaal werkt op zo'n klein computertje dat naast mijn router staat te zoemen.
