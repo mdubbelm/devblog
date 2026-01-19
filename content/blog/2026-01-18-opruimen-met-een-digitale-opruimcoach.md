@@ -10,7 +10,7 @@ tags:
 mastodon:
   host: mastodon.social
   username: Mdubbelm
-  id: ""
+  id: "115923601562425306"
 ---
 
 Mappen in mappen in mappen. Externe schijven vol "dit zoek ik later wel uit". Cloudaccounts waar ik het wachtwoord amper nog van weet. Vijftien jaar aan digitale rommel.
