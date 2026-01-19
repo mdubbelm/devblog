@@ -1,7 +1,7 @@
 ---
 title: Opruimen met een digitale opruimcoach
-date: 2026-01-18
-draft: true
+date: 2026-01-19
+draft: false
 description: Hoe ik met Claude Code en een zelfgemaakte AI-agent een opruimplan maakte voor mijn digitale chaos
 tags:
   - claude-code
