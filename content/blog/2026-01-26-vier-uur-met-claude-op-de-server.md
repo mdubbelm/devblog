@@ -12,7 +12,7 @@ tags:
 mastodon:
   host: mastodon.social
   username: Mdubbelm
-  id: ""
+  id: "115962068637642997"
 ---
 
 Gisteravond wilde ik "even" Nextcloud installeren op een server. Een vervanger voor OneDrive en Microsoft 365 - weer een stap verder in mijn reis om minder afhankelijk te zijn van big tech.
