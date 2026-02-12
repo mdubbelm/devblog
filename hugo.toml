@@ -24,6 +24,11 @@ theme = 'PaperMod'
   defaultTheme = "auto"
   comments = true  # Enable Mastodon comments (per-post config in frontmatter)
 
+  [params.assets]
+    favicon = "/favicon.svg"
+    favicon16x16 = "/favicon.svg"
+    favicon32x32 = "/favicon.svg"
+
   # Homepage - persoonlijke intro
   [params.homeInfoParams]
     Title = "Hallo, ik ben Monique"
