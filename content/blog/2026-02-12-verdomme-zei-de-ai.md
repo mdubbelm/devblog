@@ -1,5 +1,5 @@
 ---
-title: "Verdomme," zei de AI
+title: '"Verdomme," zei de AI'
 date: 2026-02-12
 draft: false
 description: Over een AI die vier keer dezelfde fout maakt, ondanks z'n eigen documentatie. En dan vloekt.
