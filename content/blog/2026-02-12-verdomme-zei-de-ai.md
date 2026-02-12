@@ -12,7 +12,7 @@ tags:
 mastodon:
   host: mastodon.social
   username: Mdubbelm
-  id: ""
+  id: "116059797724163086"
 ---
 
 Ik werk samen met een AI om mijn eigen thuisserver te beheren. Een Raspberry Pi — een minicomputertje ter grootte van een pakje boter, waar ik mijn foto's en muziek op bewaar. De AI heet Claude Code en draait in mijn terminal. Ik typ wat ik wil, Claude geeft me commando's, en die voer ik uit.
