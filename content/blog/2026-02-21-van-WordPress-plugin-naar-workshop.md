@@ -17,7 +17,7 @@ mastodon:
 
 In november bouwde ik een plugin. Niet omdat ik dat van plan was, maar omdat ik mijn WordPress-site statisch wilde maken om hem gratis te kunnen hosten op Kinsta. Je hebt dan twee opties: of je zoekt een bestaande plugin die dat doet, of je bouwt zelf iets. Ik probeerde het eerst met Simply Static, maar dat deed niet helemaal wat ik wilde. Dus bouwde ik zelf een plugin en dat werd de [Static Site Exporter](https://github.com/mdubbelm/static-site-exporter).
 
-De plugin werkte en ik kon mijn site gratis hosten. Maar toen kwamen de vragen. Hoe heb je dat gedaan? Heb je een tutorial? Mag ik 'm forken? Kan ik dat ook?
+De plugin werkte en ik kon mijn site gratis hosten. In november gaf ik er een presentatie over op de Amsterdamse WordPress meetup — over hoe ik mijn statische site live had gezet. Maar toen kwamen de vragen. Hoe heb je dat gedaan? Heb je een tutorial? Mag ik 'm forken? Kan ik dat ook?
 
 ## Van vragen naar workshop
 
