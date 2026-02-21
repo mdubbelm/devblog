@@ -41,6 +41,6 @@ En dan heb ik hem ook nog door een echt mens laten testen. [Rian Rietveld](https
 
 De echte vaardigheid bij vibe coding is niet het schrijven van prompts. Het is weten wanneer je de uitvoer kunt vertrouwen. Dat weet ik nu ook pas een beetje, na een paar maanden ermee werken.
 
-De workshop staat op [pluginvibes.modub.nl](#) en is vrij te gebruiken, delen en aanpassen onder CC BY 4.0. Kijk er eens naar als je WordPress gebruikt en nieuwsgierig bent naar wat AI ermee kan — of als je al eens een plugin hebt willen bouwen maar niet wist hoe te beginnen.
+De workshop staat op [pluginvibes.modub.nl](https://pluginvibes.modub.nl) en is vrij te gebruiken, delen en aanpassen onder CC BY 4.0. Kijk er eens naar als je WordPress gebruikt en nieuwsgierig bent naar wat AI ermee kan — of als je al eens een plugin hebt willen bouwen maar niet wist hoe te beginnen.
 
 Zie jij waarde in een online workshop die je zelfstandig doorloopt, zonder iemand die meekijkt? Ik hoor graag je feedback!
