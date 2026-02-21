@@ -31,7 +31,7 @@ Ik begon met een voorbereiding en een handleiding. Daarna een lijst met plugin-i
 
 Maar het voelde onaf zonder een Tips-pagina. Want wat doe je als de plugin werkt? Is hij dan klaar voor een echte site? Die pagina werd de langste van de vijf: een beveiligingsoverzicht, uitleg over Plugin Check, toegankelijkheid, en een eerlijk antwoord op de vraag of vibe coding eigenlijk wel een goed idee is. Soms wel, soms niet, dat hangt ervan af.
 
-Ergens halverwege voegde ik een taalswitch toe. De workshop is in het Engels – de WordPress-wereld is dat nu eenmaal – maar ik wilde hem ook in het Nederlands aanbieden. Vijf statische HTML-pagina's, geen bouwsysteem, dus ik heb met Claude Code een gedeeld JavaScript-bestand gebouwd met alle vertalingen en een toggle die je keuze onthoudt tussen pagina's. Heeft me meer nagedacht gekost dan verwacht, maar hij werkt.
+Ergens halverwege voegde ik een taalswitch toe. De workshop is in het Engels – de WordPress-wereld is dat nu eenmaal – maar ik wilde hem ook in het Nederlands aanbieden. Vijf statische HTML-pagina's, geen bouwsysteem, dus ik heb met Claude Code een gedeeld JavaScript-bestand gebouwd met alle vertalingen en een toggle die je keuze onthoudt tussen pagina's. Ik weet niet of het de beste of mooiste oplossing is, maar voor nu werkt het.
 
 ## Klaar voor anderen
 
