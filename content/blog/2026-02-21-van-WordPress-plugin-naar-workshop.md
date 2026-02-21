@@ -44,3 +44,17 @@ De echte vaardigheid bij vibe coding is niet het schrijven van prompts. Het is w
 De workshop staat op [pluginvibes.modub.nl](https://pluginvibes.modub.nl) en is vrij te gebruiken, delen en aanpassen onder CC BY 4.0. Kijk er eens naar als je WordPress gebruikt en nieuwsgierig bent naar wat AI ermee kan, of als je al eens een plugin hebt willen bouwen maar niet wist hoe te beginnen.
 
 Zie jij waarde in een online workshop die je zelfstandig doorloopt, zonder iemand die meekijkt? Ik hoor graag je feedback!
+
+<!--
+MASTODON POST (handmatig plaatsen, dan toot-ID invullen in frontmatter):
+
+In november bouwde ik een WordPress plugin. Niet omdat ik dat van plan was — gewoon omdat de bestaande oplossingen niet deden wat ik wilde.
+
+Op de Amsterdamse WordPress meetup kwamen de vragen. Hoe dan? Heb je een tutorial? Kan ik dat ook?
+
+Dat werd een workshop.
+
+https://modub.nl/blog/van-wordpress-plugin-naar-workshop/
+
+#WordPress #VibeCoding #AI
+-->
