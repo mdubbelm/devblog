@@ -12,7 +12,7 @@ tags:
 mastodon:
   host: mastodon.social
   username: Mdubbelm
-  id: ""
+  id: "116109007474888642"
 ---
 
 In november bouwde ik een plugin. Niet omdat ik dat van plan was, maar omdat ik mijn WordPress-site statisch wilde maken om hem gratis te kunnen hosten op Kinsta. Je hebt dan twee opties: of je zoekt een bestaande plugin die dat doet, of je bouwt zelf iets. Ik probeerde het eerst met Simply Static, maar dat deed niet helemaal wat ik wilde. Dus bouwde ik zelf een plugin en dat werd de [Static Site Exporter](https://github.com/mdubbelm/static-site-exporter).
