@@ -82,7 +82,7 @@ MASTODON POST (handmatig plaatsen, dan toot-ID invullen in frontmatter):
 
 Ik ben een boek aan het schrijven. Een thriller. Onder pseudoniem, want mijn moeder mag niet weten dat het van mij is (ze is mijn testpubliek).
 
-Het gekste: de helft van mijn tijd gaat naar het opruimen van wat de AI achterlaat. Holle zinnen die klinken als literatuur, tramhaltes die niet bestaan, en het woord "alsof" in elke andere zin.
+Ik schrijf het met AI. En ik vraag me regelmatig af of dat valsspelen is. De helft van mijn tijd gaat in ieder geval naar het opruimen van wat de AI achterlaat: holle zinnen, tramhaltes die niet bestaan, en het woord "alsof" in elke andere zin.
 
 https://modub.nl/blog/ik-schrijf-een-boek-en-niemand-mag-het-weten/ #schrijven #ai #claudecode
 -->
