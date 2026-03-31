@@ -6,7 +6,7 @@ draft: false
 mastodon:
   host: mastodon.social
   username: Mdubbelm
-  id: ""
+  id: "116324345671124213"
 description: "Over een boek schrijven met AI, publiceren onder pseudoniem, en de vraag of dat valsspelen is."
 tags:
   - ai
