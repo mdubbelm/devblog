@@ -1,6 +1,6 @@
 ---
-title: Ik heb Readwise opgezegd. Voor de zoveelste keer
-slug: ik-heb-readwise-opgezegd
+title: Ik heb een leesprobleem
+slug: ik-heb-een-leesprobleem
 date: 2026-04-12T09:00:00+02:00
 draft: false
 description: Voor de vierde keer een nieuwe read-later setup, deze keer self-hosted op Miniflux en Kill the Newsletter. Of het patroon nu doorbreekt? Geen idee.
@@ -46,7 +46,7 @@ En het past in een grotere beweging die ik aan het doorvoeren ben. Stap voor sta
 Of mijn patronen  echt veranderen weet ik dus niet. Of mijn portemonnee blijer is: dat wel. En het belangrijkste: ik heb er weer veel van geleerd!
 
 <!--mastodon
-Ik heb Readwise opgezegd. Voor de vierde keer een read-later tool, deze keer self-hosted. Miniflux op de Pi voor RSS, Kill the Newsletter op de VPS voor nieuwsbrieven, NetNewsWire als app.
+Ik heb een leesprobleem. Voor de vierde keer een nieuwe read-later setup, deze keer self-hosted. Miniflux op de Pi, Kill the Newsletter op de VPS, NetNewsWire als app.
 
 Of ik nu wel ga lezen? Geen idee. Maar ik betaal er in ieder geval niet meer voor.
 
