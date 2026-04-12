@@ -1,14 +1,13 @@
 ---
 title: Runbooks voor jezelf
 slug: runbooks-voor-jezelf
-date: 2026-02-04T15:00:00+01:00
+date: 2026-03-21T15:00:00+01:00
 draft: true
 description: Documentatie die je helpt als je in paniek bent. Waarom ik runbooks schrijf voor mijn homeserver, en wat erin staat.
 tags:
   - homeserver
   - documentatie
   - selfhosted
-# Mastodon comments - vul de toot ID in na publicatie
 mastodon:
   host: mastodon.social
   username: Mdubbelm

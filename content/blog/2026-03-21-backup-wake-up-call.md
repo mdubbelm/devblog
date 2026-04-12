@@ -1,7 +1,7 @@
 ---
 title: De backup wake-up call (en het systeem dat eruit kwam)
 slug: backup-wake-up-call
-date: 2026-02-04T14:00:00+01:00
+date: 2026-03-21T14:00:00+01:00
 draft: true
 description: Hoe verdwenen Obsidian plugins me dwongen om mijn backup strategie onder de loep te nemen. En wat ik daarbij ontdekte.
 tags:
@@ -10,7 +10,6 @@ tags:
   - obsidian
   - claude-code
   - hetzner
-# Mastodon comments - vul de toot ID in na publicatie
 mastodon:
   host: mastodon.social
   username: Mdubbelm
