@@ -1,7 +1,7 @@
 ---
 title: Ik heb Readwise opgezegd. Voor de zoveelste keer
 slug: ik-heb-readwise-opgezegd
-date: 2026-04-12T09:00:00+01:00
+date: 2026-04-12T09:00:00+02:00
 draft: false
 description: Voor de vierde keer een nieuwe read-later setup, deze keer self-hosted op Miniflux en Kill the Newsletter. Of het patroon nu doorbreekt? Geen idee.
 tags:
