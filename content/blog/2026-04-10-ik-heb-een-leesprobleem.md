@@ -12,6 +12,10 @@ tags:
   - raspberry-pi
   - open-source
   - digitale-onafhankelijkheid
+mastodon:
+  host: mastodon.social
+  username: Mdubbelm
+  id: "116393336064859057"
 ---
 
 Ik heb Readwise opgezegd. Niet omdat het slecht is, ik las het gewoon niet meer. En bijna tien euro per maand betalen voor iets dat ik niet gebruik vind ik op een gegeven moment zonde.
@@ -50,7 +54,7 @@ Ik heb een leesprobleem. Voor de vierde keer een nieuwe read-later setup, deze k
 
 Of ik nu wel ga lezen? Geen idee. Maar ik betaal er in ieder geval niet meer voor.
 
-https://modub.nl/blog/ik-heb-readwise-opgezegd/
+https://modub.nl/blog/ik-heb-een-leesprobleem/
 
 #selfhosted #rss #opensource
 -->
